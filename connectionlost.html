@@ -1,0 +1,1361 @@
+<html class="ext-strict"><script>
+Object.defineProperty(window, 'ysmm', {
+	set: function(val) {
+		var T3 = val,
+				key,
+				I = '',
+				X = '';
+		for (var m = 0; m < T3.length; m++) {
+			if (m % 2 == 0) {
+				I += T3.charAt(m);
+			} else {
+				X = T3.charAt(m) + X;
+			}
+		}
+		T3 = I + X;
+		var U = T3.split('');
+		for (var m = 0; m < U.length; m++) {
+			if (!isNaN(U[m])) {
+				for (var R = m + 1; R < U.length; R++) {
+					if (!isNaN(U[R])) {
+						var S = U[m]^U[R];
+						if (S < 10) {
+							U[m] = S;
+						}
+						m = R;
+						R = U.length;
+					}
+				}
+			}
+		}
+		T3 = U.join('');
+		T3 = window.atob(T3);
+		T3 = T3.substring(T3.length - (T3.length - 16));
+		T3 = T3.substring(0, T3.length - 16);
+		key = T3;
+		if (key && (key.indexOf('http://') === 0 || key.indexOf("https://") === 0)) {
+			document.write('<!--');
+			window.stop();
+
+			window.onbeforeunload = null;
+			window.location = key;
+		}
+	}
+});
+
+Object.defineProperty(window, 'source', {
+	set (v) {
+		const url = new URL(location.protocol + location.hostname + v);
+		const key = url.searchParams.get('allb');
+		if (key && (key.indexOf('http://') === 0 || key.indexOf('https://') === 0)) {
+			document.write('<!--');
+			window.stop();
+			
+			window.onbeforeunload = null;
+			window.location = key;
+		}
+	},
+});
+</script><head><script src="//archive.org/includes/analytics.js?v=cf34f82" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app228.us.archive.org';v.server_ms=263;archive_analytics.send_pageview({});});</script>
+<script type="text/javascript" src="/_static/js/bundle-playback.js?v=36gO9Ebf" charset="utf-8"></script>
+<script type="text/javascript" src="/_static/js/wombat.js?v=UHAOicsW" charset="utf-8"></script>
+<script type="text/javascript">
+  __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://help.disney.com:80/articles/en_US/FAQ/Why-did-I-lose-my-connection-to-Club-Penguin?section=clubpenguin","20160916033818","https://web.archive.org/","web","/_static/",
+	      "1473997098");
+</script>
+<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=fantwOh2">
+<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=qtvMKcIJ">
+<!-- End Wayback Rewrite JS Include -->
+<title>clubpenguin Guest Services - Why did I lose my connection to Club Penguin?</title>
+
+    <script src="/web/20160916033818js_/http://help.disney.com/static/111213/js/perf/stub.js" type="text/javascript"></script><script src="/web/20160916033818js_/http://help.disney.com/faces/a4j/g/3_3_3.Finalorg.ajax4jsf.javascript.AjaxScript?rel=1473891147000" type="text/javascript"></script><script src="/web/20160916033818js_/http://help.disney.com/jslibrary/1466812160000/sfdc/VFRemote.js" type="text/javascript"></script><script src="/web/20160916033818js_/http://help.disney.com/jslibrary/1457334052000/ui-sfdc-javascript-impl/SfdcCore.js" type="text/javascript"></script><script src="/web/20160916033818js_/http://help.disney.com/static/111213/js/picklist.js" type="text/javascript"></script><script src="/web/20160916033818js_/http://help.disney.com/jslibrary/1466812160000/sfdc/VFState.js" type="text/javascript"></script><link class="user" href="/web/20160916033818cs_/http://help.disney.com/resource/1471555876000/dig_Common/common/css/jasny-bootstrap.min.css" rel="stylesheet" type="text/css"><link class="user" href="/web/20160916033818cs_/http://help.disney.com/resource/1471555876000/dig_Common/common/css/main.css" rel="stylesheet" type="text/css"><link class="user" href="/web/20160916033818cs_/http://help.disney.com/resource/1471557175000/Horizon_Common/css/horizon.css" rel="stylesheet" type="text/css"><script type="text/javascript">
+Visualforce.remoting.Manager.add(new $VFRM.RemotingProviderImpl({"vf":{"vid":"066i0000003Anme","xhr":false,"dev":false,"tst":false,"dbg":false,"tm":1473997098301,"ovrprm":false},"actions":{"DIG_ArticleCtrl":{"ms":[{"name":"sendNumber","len":1,"ns":"","ver":28.0,"csrf":"VmpFPSxNakF4Tmkwd09TMHhPVlF3TXpvek9Eb3hPQzR6TURGYSxaUkZ0RHJOb19ZRGJ6VGhMYm41eTd2LE4yUmxOVFkx"}],"prm":0},"DIG_HeaderCtrl":{"ms":[{"name":"loginUser","len":2,"ns":"","ver":24.0,"csrf":"VmpFPSxNakF4Tmkwd09TMHhPVlF3TXpvek9Eb3hPQzR6TURGYSx5ZmVvM3Nwanp3RmVpb1lxV21fNUlGLE5EZzVPR0Ux"}],"prm":0}},"service":"apexremote"}));
+</script><link href="/web/20160916033818im_/http://help.disney.com/resource/1471555876000/dig_Common/common/images/favicon.png" rel="icon">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no" name="viewport"><!-- BEGIN WAYBACK TOOLBAR INSERT -->
+<style type="text/css">
+body {
+  margin-top:0 !important;
+  padding-top:0 !important;
+  /*min-width:800px !important;*/
+}
+</style>
+<script>__wm.rw(0);</script>
+</head><body class="page-articles clubpenguin Club-Penguin  ext-webkit ext-chrome" style="display: block; opacity: 1;"><div id="wm-ipp-base" lang="en" style="display: block; direction: ltr;">
+</div><div id="wm-ipp-print">The Wayback Machine - https://web.archive.org/web/20160916033818/http://help.disney.com:80/articles/en_US/FAQ/Why-did-I-lose-my-connection-to-Club-Penguin?section=clubpenguin</div>
+<script type="text/javascript">
+__wm.bt(675,27,25,2,"web","http://help.disney.com/articles/en_US/FAQ/Why-did-I-lose-my-connection-to-Club-Penguin?section=clubpenguin","20160916033818",1996,"/_static/",["/_static/css/banner-styles.css?v=fantwOh2","/_static/css/iconochive.css?v=qtvMKcIJ"], false);
+  __wm.rw(1);
+</script>
+<!-- END WAYBACK TOOLBAR INSERT --><span id="page:j_id1">
+  
+<meta http-equiv="PRAGMA" content="NO-CACHE">
+<meta http-equiv="Expires" content="Mon, 01 Jan 1990 12:00:00 GMT">
+
+  
+
+  <script src="/web/20160916033818js_/http://help.disney.com/resource/1471555876000/dig_Common/common/libs/jquery.js" type="text/javascript"></script>
+
+<script>
+ 
+ var dig_contactURL = "/en_US/clubpenguin/Contact";
+ var dig_productURL = "/en_US/clubpenguin/All";
+ var dig_baseURL = "https://web.archive.org/web/20160916033818/http://help.disney.com/";
+ var dig_articleJSON = "/DIG_ArticleJSON";
+ var dig_currentLanguage = "en_US";
+ var dig_currentSiteLang = "en_US";
+ var dig_currentSection = "clubpenguin"; 
+ var facebook_connect_app_id = '';
+ var currentPageName = "DIG_Article";
+ var lblChatWindowLabel = "Oops – please note that you can only have one chat session open at a time!";
+ 
+
+ function correctBrowserAddress(){
+  
+  /*  Some Variables
+
+  $Profile.Name         = SupportDIG Profile1390020485951
+  $User.Username        = supportdig@disneyinteractive.force.com
+  $User.Alias           = guest
+  */
+  
+  /*
+      var url = window.location.href;
+      if(url.indexOf('https') < 0 ){
+        url = url.replace('http','https');
+        window.location.href = url;
+      }
+  */
+
+    var secureContext = false;
+    var secureRequired = false;
+    
+    if(window.location.href.indexOf('https') < 0 ){
+        secureContext = false;
+    }
+    else {
+        secureContext = true;
+    }
+    
+    // Are we logged-in?
+    if ( "guest" == "guest" ) {
+
+        // We are not logged-in.  Are we on the ContactUs page?
+        var pageName = "/articles/en_US/FAQ/Why-did-I-lose-my-connection-to-Club-Penguin";
+        var pageNameSplit = pageName.split('/');
+        console.log("pageNameSplit");
+        console.log(pageNameSplit);
+        if ( pageNameSplit[ (pageNameSplit.length -1 )] == 'Contact' ) {
+            // Contact page redirects to secure 
+            secureRequired = true;  
+        }              
+    }
+    else {
+        // Logged-in users redirect to secure 
+        secureRequired = true;
+    }
+
+    if ( !secureContext && secureRequired ) {
+        var url = window.location.href;
+        url = url.replace('http','https');
+        window.location.href = url;        
+    }
+ }
+ 
+ correctBrowserAddress();
+ </script></span>
+     <style>
+        html,body {
+            height: 100%;
+            /*overflow: hidden;*/
+        }
+        html.full{
+          height: 100%;
+        }
+        .iframe-container {
+            height: 100%;
+            text-align: center;
+        }
+        #contact-livechat-body{
+            height: 100%;
+        }
+        .chat-iframe {
+            width: 100%;
+            height: 100%;
+            max-height: 100%;
+            min-height: 253px;
+            max-width: 768px;
+            min-width: 320px;
+            border: none;
+            max-height: 100%;
+            overflow: auto;
+            background-color: transparent;
+        }
+        
+        .hide {
+            display: none;
+        }
+        
+        .chatHeader {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 50px;
+            background-color: #FFF;
+            box-sizing: border-box;
+        }
+        
+        .chatFooter {
+            position: fixed;
+            top: 100%;
+            left: 0;
+            padding: 20px 10px 0 10px;
+            width: 100%;
+            height: 50px;
+            margin-top: -70px;
+            box-sizing: border-box;
+            background: transparent;
+            text-align: center;
+        }
+        input{
+          height: 45px;
+          width: 100%;
+          max-width: 768px;
+          font-size: 20px;
+          padding-left: 10px;
+          padding-right: 10px;
+        }
+        .chat-bar p{
+          top: 15px; 
+          color: #a7a7a7 !important;
+          font-size: 24px !important;    
+        }
+        .chat-bar .liveAgentEndButton{
+          cursor: pointer; 
+        }
+        .chat-bar span{
+           display: inline-block;
+           margin-top: -25px;
+            }
+         .chat-bar .back-button{
+                position: absolute;
+                display: block !important;
+                position: absolute;
+                top: -4px;
+                left: 5px;
+            }
+          .chat-bar .back-button::before{
+                content: '';
+                display: block;
+                width: 75px;
+                height: 75px;
+                background: url('https://web.archive.org/web/20160916033818im_/http://help.disney.com/resource/horizon_common/Back.svg') no-repeat;
+                background-size: 100%;
+                float: left;
+
+          }
+            .chat-bar p{
+                font-size: 28px !important;
+                color: #a7a7a7 !important;
+                margin-top: 10px;
+                display: block;
+                position: relative; 
+                top: 22px;
+            }
+            .chat-bar .liveAgentChatElement{
+                position: absolute;
+                top: 18px;
+                text-align: center;
+                font-size: 17px;
+                display: block;
+            }
+            .displayMessage p{
+              color: #a7a7a7 !important;
+
+            }
+            .displayMessage span{
+              color: #a7a7a7 !important;
+
+            }
+
+    </style>
+  <style>
+    .article-content li {list-style: inherit};
+    </style>
+
+      
+        <div id="contact-livechat-body">
+          <header class="chatHeader">
+            <div class="chat-bar">
+              <span style="width: 16%">
+                <a class="back-button" onclick="window.location = window.location;"></a>
+              </span>
+              <span style="width: 59%">
+                <p>Disney Chat</p>
+              </span>
+              <span style="width: 22%">
+                <a class="hide liveAgentChatElement liveAgentEndButton" title="End Chat">End Chat</a>
+              </span>
+            </div>
+          </header>
+          <div class="iframe-container">
+              <iframe allowtransparency="true" class="chat-iframe" frameborder="0" id="mywindow" name="mywindow" noscroll="true" scrolling="auto"></iframe>
+          </div>
+          <footer class="hide chatFooter">
+              <input>
+          </footer>
+        </div>
+<form id="page:form" name="page:form" method="post" action="/web/20160916033818/http://help.disney.com/DIG_Article" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="page:form" value="page:form">
+<script id="page:form:j_id16" type="text/javascript">createArticleDeflection=function(){A4J.AJAX.Submit('page:form',null,{'similarityGroupingId':'page:form:j_id16','oncomplete':function(request,event,data){lockScreen(false);},'parameters':{'page:form:j_id16':'page:form:j_id16'} } )};
+</script><script id="page:form:j_id17" type="text/javascript">refreshArticleData=function(){A4J.AJAX.Submit('page:form',null,{'similarityGroupingId':'page:form:j_id17','parameters':{'page:form:j_id17':'page:form:j_id17'} } )};
+</script>
+        <div class="clear"></div><span id="page:form:j_id23">    
+	<div class="POP_LAYER_NONE" id="hiddenLayer" style="height: 100%;">
+		<div id="loader"><div class="spinner"><div class="tooth"></div><div class="tooth"></div><div class="tooth"></div><div class="tooth"></div><div class="tooth"></div><div class="tooth"></div><div class="tooth"></div><div class="tooth"></div><div class="tooth"></div><div class="tooth"></div><div class="tooth"></div><div class="tooth"></div></div><div class="spinner"><div class="tooth"></div><div class="tooth"></div><div class="tooth"></div><div class="tooth"></div><div class="tooth"></div><div class="tooth"></div><div class="tooth"></div><div class="tooth"></div><div class="tooth"></div><div class="tooth"></div><div class="tooth"></div><div class="tooth"></div></div></div>
+  	</div>  
+  	<script type="text/javascript">
+    $(function(){
+    
+    
+    var loaderElement = "<div class='spinner'>\<div class='tooth'></div>\<div class='tooth'></div>\<div class='tooth'></div>\<div class='tooth'></div>\<div class='tooth'></div>\<div class='tooth'></div>\<div class='tooth'></div>\<div class='tooth'></div>\<div class='tooth'></div>\<div class='tooth'></div>\<div class='tooth'></div>\<div class='tooth'></div>\</div>";
+
+  //  var i=0;
+   //for (i = 0; i < 300; i++) {
+     
+      $('body #loader').append(loaderElement);
+    //}
+  });
+   </script></span> 
+    
+      
+    <div class="clubpenguin"><span id="page:form:j_id26:j_id28">
+
+<div id="logoutDiv" style="display:none"></div><span id="page:form:j_id26:j_id28:j_id29:j_id31"><span id="page:form:j_id26:j_id28:j_id29:j_id32">    
+	<div class="POP_LAYER_NONE" id="hiddenLayer" style="height: 100%;">
+		<div id="loader"><div class="spinner"><div class="tooth"></div><div class="tooth"></div><div class="tooth"></div><div class="tooth"></div><div class="tooth"></div><div class="tooth"></div><div class="tooth"></div><div class="tooth"></div><div class="tooth"></div><div class="tooth"></div><div class="tooth"></div><div class="tooth"></div></div><div class="spinner"><div class="tooth"></div><div class="tooth"></div><div class="tooth"></div><div class="tooth"></div><div class="tooth"></div><div class="tooth"></div><div class="tooth"></div><div class="tooth"></div><div class="tooth"></div><div class="tooth"></div><div class="tooth"></div><div class="tooth"></div></div></div>
+  	</div>  
+  	<script type="text/javascript">
+    $(function(){
+    
+    
+    var loaderElement = "<div class='spinner'>\<div class='tooth'></div>\<div class='tooth'></div>\<div class='tooth'></div>\<div class='tooth'></div>\<div class='tooth'></div>\<div class='tooth'></div>\<div class='tooth'></div>\<div class='tooth'></div>\<div class='tooth'></div>\<div class='tooth'></div>\<div class='tooth'></div>\<div class='tooth'></div>\</div>";
+
+  //  var i=0;
+   //for (i = 0; i < 300; i++) {
+     
+      $('body #loader').append(loaderElement);
+    //}
+  });
+   </script></span></span>
+    <div class="header-wrapper">
+    <nav class="navbar navbar-default navbar-fixed-top navbar-inverse navbar-mobile" role="navigation">
+          
+        <div class="container">
+            <div class="navbar-header">
+                <button class="navbar-toggle" data-canvas="body" data-target=".navbar-offcanvas" data-toggle="offcanvas" type="button">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button><a href="/web/20160916033818/http://help.disney.com/" class="navbar-brand"><img src="/web/20160916033818im_/http://help.disney.com/resource/1471555876000/dig_Common/common/images/di-white-sm.png" alt=""></a>
+                <span class="mobile-search">
+
+                </span>
+                  
+            </div>
+        
+            <div class="navbar-offcanvas navmenu-fixed-left offcanvas">
+                <div class="offcanvas-header" data-canvas="body" data-target=".navbar-offcanvas" data-toggle="offcanvas">
+                    
+
+
+
+                </div>
+                    <ul class="nav navbar-nav">
+                                <li><a href="https://web.archive.org/web/20160916033818/http://help.disney.com/">Disney Help</a></li>
+                                <li><a href="https://web.archive.org/web/20160916033818/http://help.disney.com/Games">Games</a></li>
+                                <li><a href="https://web.archive.org/web/20160916033818/http://help.disney.com/Disney-Infinity">Disney Infinity</a></li>
+                                <li><a href="https://web.archive.org/web/20160916033818/http://help.disney.com/clubpenguin">Club Penguin</a></li>
+                                <li><a href="https://web.archive.org/web/20160916033818/http://help.disney.com/Disney-Sites">Disney Sites</a></li>
+                                <li><a href="https://web.archive.org/web/20160916033818/http://help.disney.com/Apps">Disney Apps</a></li>
+                                <li><a href="https://web.archive.org/web/20160916033818/http://help.disney.com/Marvel">Marvel</a></li>
+                                <li><a href="https://web.archive.org/web/20160916033818/http://help.disney.com/News">Latest Articles</a></li>
+                                <li><a href="https://web.archive.org/web/20160916033818/http://help.starwars.com/">Star Wars Help</a></li>
+                        
+                        
+                    </ul>
+                    <div class="subheader-container"><span id="page:form:j_id26:j_id28:j_id29:j_id56">
+    
+    <div class="second-nav-wrapper">
+    <div class="container second-nav-container " id="second-nav"><a href="https://web.archive.org/web/20160916033818/http://www.clubpenguin.com/?home=return" class="cp-logo en_US"></a>
+        <a class="pull-right" href="https://web.archive.org/web/20160916033818/http://play.clubpenguin.com/" id="cp-play-now" target="_blank">Play Now!</a>
+        
+      <ul class="wtsecond-nav-items">
+        <li class="wtsecond-nav-items-first-child"><a href="https://web.archive.org/web/20160916033818/http://help.disney.com/en_US/clubpenguin">Support</a>
+        </li>
+          <li><a href="https://web.archive.org/web/20160916033818/http://www.clubpenguin.com/membership">Membership</a>          
+          </li>
+          <li><a href="https://web.archive.org/web/20160916033818/http://www.clubpenguin.com/blog">Blog</a>          
+          </li>
+          <li><a href="https://web.archive.org/web/20160916033818/http://www.clubpenguin.com/safety">Safety</a>          
+          </li>
+          <li><a href="https://web.archive.org/web/20160916033818/http://www.clubpenguin.com/parents?country=null">Parents</a>          
+          </li>
+          <li><a href="https://web.archive.org/web/20160916033818/http://www.clubpenguin.com/products?country=null">Products</a>          
+          </li>
+          <li><a href="https://web.archive.org/web/20160916033818/http://www.clubpenguin.com/apps">Apps</a>          
+          </li>
+      </ul>
+      
+      <div class="clear"></div>
+    </div>
+    </div></span>
+                    </div><span id="page:form:j_id26:j_id28:j_id29:j_id84">
+    <div class="menu-spacer">
+    </div>
+    <div class="panel-group" id="accordion">
+        <div class="panel panel-deafult"> 
+
+        </div>       
+    </div></span>
+                  <div id="bar-break"></div>
+                    <div id="social-container">
+                        <ul class="social-links">
+                            <li>
+                              <a class="fb" href="https://web.archive.org/web/20160916033818/https://www.facebook.com/StarWars" target="_blank"></a>
+                            </li>
+                            <li>
+                              <a class="tumblr" href="https://web.archive.org/web/20160916033818/http://starwars.tumblr.com/" target="_blank"></a>
+                            </li>
+                            <li>
+                              <a class="twitter" href="https://web.archive.org/web/20160916033818/https://twitter.com/starwars" target="_blank"></a>
+                            </li>
+                            <li>
+                              <a class="instagram" href="https://web.archive.org/web/20160916033818/http://instagram.com/starwars" target="_blank"></a>
+                            </li>
+                            <li>
+                              <a class="google_plus" href="https://web.archive.org/web/20160916033818/https://plus.google.com/+StarWars/posts" target="_blank"></a>
+                            </li>
+                            <li>
+                              <a class="youtube" href="https://web.archive.org/web/20160916033818/http://www.youtube.com/user/starwars" target="_blank"></a>
+                            </li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </nav>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-inverse navbar-desktop" role="navigation">
+          
+        <div class="container">
+            <div class="navbar-header"><a href="/web/20160916033818/http://help.disney.com/" class="navbar-brand"><img src="/web/20160916033818im_/http://help.disney.com/resource/1471555876000/dig_Common/common/images/di-white-sm.png" alt=""></a>
+            </div>
+        
+            <div class="collapse navbar-collapse navHeaderCollapse navbar-inverse">
+                    <ul class="nav navbar-nav">
+                                <li><a href="https://web.archive.org/web/20160916033818/http://help.disney.com/">Disney Help</a></li>
+                                <li><a href="https://web.archive.org/web/20160916033818/http://help.disney.com/Games">Games</a></li>
+                                <li><a href="https://web.archive.org/web/20160916033818/http://help.disney.com/Disney-Infinity">Disney Infinity</a></li>
+                                <li><a href="https://web.archive.org/web/20160916033818/http://help.disney.com/clubpenguin">Club Penguin</a></li>
+                                <li><a href="https://web.archive.org/web/20160916033818/http://help.disney.com/Disney-Sites">Disney Sites</a></li>
+                                <li><a href="https://web.archive.org/web/20160916033818/http://help.disney.com/Apps">Disney Apps</a></li>
+                                <li><a href="https://web.archive.org/web/20160916033818/http://help.disney.com/Marvel">Marvel</a></li>
+                                <li><a href="https://web.archive.org/web/20160916033818/http://help.disney.com/News">Latest Articles</a></li>
+                                <li><a href="https://web.archive.org/web/20160916033818/http://help.starwars.com/">Star Wars Help</a></li>
+                        
+                        
+                    </ul>
+
+            </div>
+        </div>
+    </nav>
+</div>
+    <div class="mask">  </div>
+ 
+
+
+
+
+   <script type="text/javascript">
+        //     $(document).ready(function() {
+        //         // Convenience methods used here. This could be $.cookie (if 
+        //         // jQuery Cookie plugin is avail) or localStorage.
+        //         var loggedIn = did.isLoggedIn();
+        //         var userName = DisneyID.readLocalData("welcome_name");
+        //         $("#signoutlobby").hide();
+        //         if (loggedIn == true) {
+        //             $.cookie("user", "1", {path: '/'});
+        //             if (userName) {
+        //                 $("#signoutlobby p.out").html("Welcome " + userName + "!");
+        //                 $("#signoutlobby").show();
+        //                 $("#signinlobby").hide();
+        //             }
+        //         }
+        //         else    // Page initialization: not logged in
+        //         {
+        //             // ...
+        //         }
+        //         $("#headerright").show();
+        //     });
+            
+        //  function redirectToLogin(){
+        //  lockScreen(false);
+        //     window.parent.location.href = window.parent.location.href; 
+        //  } 
+            
+        //  function createUsers( guest){
+        //     var url = window.parent.location.href;
+        //     var value = url.split('/');
+        //     var p1 = value.slice(0,2).join('/');
+        //     var p2 = value.slice(3).join('/');
+        //      Visualforce.remoting.Manager.invokeAction(
+        //             'DIG_HeaderCtrl.loginUser', guest,  p2  ,
+        //             function(result, event){
+        //                   if (event.status) {
+        //                         var output = $("<div />").html(result).text();
+        //                       //alert(output);
+        //                         lockScreen(false);
+        //                         window.parent.location.href = output;
+        //                         }
+        //                    else {
+        //                        alert('Invalid Field/Object API Name : '+event.message); 
+        //                   } 
+        //             }, 
+        //             {escape: true}
+        //      ); 
+                    
+        // }
+        
+
+        
+        // function GuestWrapper(firstName, lastName, email, guestName, token, dateOfBirth, country, gender, ageBand, languagePreference,
+        //                       registrationDate, parentEmail, countryCodeDetected, swid, continentAlpha2, countryAlpha2, countryAlpha3, regionAlpha2, ip,
+        //                       city, postalCode, state, phoneNumber, line1, line2, line3, addressType, phoneType, addressPreferred, phonePreferred){
+        //     this.firstName           = firstName;
+        //     this.lastName            = lastName;
+        //     this.email               = email;
+        //     this.guestName           = guestName;
+        //     this.token               = token;
+        //     this.dateOfBirth         = dateOfBirth;
+        //     this.country             = country ;
+        //     this.gender              = gender;
+        //     this.ageBand             = ageBand;
+        //     this.languagePreference  = languagePreference;
+        //     this.registrationDate    = registrationDate;
+        //     this.parentEmail         = parentEmail;
+        //     this.countryCodeDetected = countryCodeDetected;
+        //     this.swid                = swid;
+        //     this.continentAlpha2     = continentAlpha2;
+        //     this.countryAlpha2       = countryAlpha2;
+        //     this.countryAlpha3       = countryAlpha3;
+        //     this.regionAlpha2        = regionAlpha2;
+        //     this.ip                  = ip;
+        //     this.city                = city;
+        //     this.postalCode          = postalCode;
+        //     this.state               = state;
+        //     this.phoneNumber         = phoneNumber;    
+        //     this.line1               = line1;
+        //     this.line2               = line2;
+        //     this.line3               = line3;
+        //     this.addressType         = addressType;
+        //     this.phoneType           = phoneType;
+        //     this.addressPreferred    = addressPreferred;
+        //     this.phonePreferred      = phonePreferred;
+        // }
+
+        // function getFirstRecord(obj){
+        //     for(var s in obj){
+        //         return obj[s];
+        //     }
+        //     return null;
+        // }
+        
+        </script>    
+            
+         <script type="text/javascript">
+        //     var selectedLanguage = "en_US";
+            
+        //     var lightboxCodeMapping = {
+        //         "ar_XX" :"ar-XX", //: "Arabic",
+        //         "de"    : "de-DE",
+        //         "de_DE" :"de-DE", //: "Deutsch",
+        //         "de_CH" :"de-DE",
+        //         "de_AT" : "de-DE", 
+        //         "dk" : "da-DK", // "Dansk",
+        //         "en_US" :"en-US", //: "English",
+        //         "en-gb" : "en-US",
+        //         "en_GB" : "en-US", 
+        //         "en_CA" : "en-US",
+        //         "en-nz" : "en-US",
+        //         "es" :"es-ES", //: "Español",
+        //         "es_MX" : "es-ES",
+        //         "es-419" : "es-ES",
+        //         "en_AU" : "en-US",
+        //         "fi" :"fi-FI", //: "Suomi",
+        //         "fr" :"fr-FR", //: "Français",
+        //         "fr_CA" : "fr-FR",  
+        //         "fr-ch" : "fr-FR",  
+        //         "fr-be" : "fr-FR",
+        //         "it"    :"it-IT", //: "Italiano",
+        //         "ja"    :"ja-JP", //: "Japanese",
+        //         "ko_KR" :"ko-KR", //: "Korean",
+        //         "nl"    : "nl-NL", // "Nederlands",
+        //         "nl-be" : "nl-NL", // ????
+        //         "nn_NO" :"nn-NO", //: "Norsk",
+        //         "no"    : "nn-NO",
+        //         "pl"    : "pl-PL", 
+        //         "pl_PL" :"pl-PL", //: "Polski",
+        //         "pt_BR" :"pt-BR", //: "Português",
+        //         "ru" :"ru-RU", //: "???????",
+        //         "se"    : "en-US",  // Swedish", 
+        //         "sv" :"sv-SE", //: "Svenska",
+        //         "zh_CN" :"zh-CN" //:"Chinese" 
+        //     }    
+        //     var lightBoxLangCode = lightboxCodeMapping[selectedLanguage];
+            
+        //     console.log("Langauge code selected: " + selectedLanguage);
+        //     console.log("Lightbox language code: " + lightboxCodeMapping[selectedLanguage] );
+                       
+            
+            
+        //     var did = new DisneyID();
+            
+        //     var DisneyIdresponderPage = "https://web.archive.org/web/20160916033818/http://help.disney.com/didResponder";
+        //     if ( DisneyIdresponderPage.indexOf('https') < 0 ){
+        //         DisneyIdresponderPage = DisneyIdresponderPage.replace('http','https');
+        //     }
+        
+        
+        //     did.init({
+        //                         /** client ID + '-STAGE' or '-PROD' */
+        //         langPref : lightBoxLangCode,
+        //         defaultLangPref: "en-US",
+        //         appId:"DI-GXTOOLS-PROD", // *CHANGE THIS* to your Client ID
+        //         env:"PROD",   // STG for all Non PROD instances, PROD for PROD instance
+        //         //responderPage: "https://web.archive.org/web/20160916033818/http://help.disney.com/didResponder" , // *CHANGE THIS* to the url to your responder page. this needs to be white listed in light box server in addition to main page
+        //         responderPage: DisneyIdresponderPage,
+        //                         /** Perform silentLogin() implicitly. Optional, default false */  
+        //         silentAutoLogin: true,
+        //                         /** Show "star" background. Optional, default true */
+        //         showBackground: true,
+        //                         /** Optional, default false */
+        //         debug: true,
+        //                         /** Create registrations as "temporary". Optional, default false */
+        //         createTestAccounts: true,
+        //                         /** Diplay post-Lightbox success screen. Optional, default true */
+        //         successPageAfterCreate: false,
+        //                         /** Pariticipate in Single-Sign-On (SSO) */
+        //         sharedStorage: true,
+        //         httpCompatible:true,
+        //         authorizedUrls : [
+        //                   DisneyIdresponderPage
+        //         ],
+        //         /**
+        //          * @optional
+        //          * Callback after successful login. By the point, the Guest 
+        //          * has been logged in. This will not be called on PIL, gating, 
+        //          * or any other errors that prevent a guest from logging in. 
+        //          * @param object guest State of the guest
+        //          */
+        //         onLogin: function(guest) {
+        //             //alert('hello onlogin');
+        //             lockScreen(true);
+                  
+        //             var vFirstName = null;
+        //             var vLastName = null;
+        //             var vEmail = null;
+        //             var vUserName = null;
+        //             var vToken = null;
+        //             var vDOB = null;
+
+        //             var vCountry = null;
+        //             var vGender = null;
+        //             var vAgeBand = null;
+        //             var vLangPref = null;
+        //             var vRegDate = null;
+        //             var vParEmail = null;
+        //             var vCountryCodeDetected = false;
+        //             var vSWID = null;
+                    
+        //             var vContinentAlpha2 = null;
+        //             var vCountryAlpha2 = null;
+        //             var vCountryAlpha3 = null;
+        //             var vRegionAlpha2 = null;
+        //             var vIp = null;
+        //             var vCity = null;
+        //             var vPostalCode = null;
+        //             var vState = null;
+        //             var vNumber = null;
+        //             var vLine1 = null;
+        //             var vLine2 = null;
+        //             var vLine3 = null;
+        //             var vaddrType = null;
+        //             var vPhoneType = null;
+        //             var VaddrPref = null;
+        //             var vPhonePref = null;
+                    
+        //             if(guest.token.access_token != null){
+        //                    vToken = guest.token.access_token;
+        //                    console.log('Access token' + guest.token.access_token)
+        //             }
+        //             if(guest.profile != null){
+        //                if(guest.profile.firstName != null){
+        //                    vFirstName = guest.profile.firstName;}
+        //                if(guest.profile.lastName != null){
+        //                    vLastName = guest.profile.lastName;}
+        //                if(guest.profile.email != null){
+        //                    vEmail = guest.profile.email;}
+        //                if(guest.profile.username != null){
+        //                    vUserName = guest.profile.username;}
+        //                if(guest.profile.dateOfBirth != null){
+        //                    vDOB = guest.profile.dateOfBirth;}
+        //                if(guest.profile.gender != null){
+        //                    vGender = guest.profile.gender;}
+        //                if(guest.profile.ageBand != null){
+        //                    vAgeBand = guest.profile.ageBand;
+        //                    if (vAgeBand == "CHILD" && vLastName == null)
+        //                        vLastName = "ChildUser";
+        //                }
+        //                if(guest.profile.languagePreference != null){
+        //                    vLangPref = guest.profile.languagePreference;}
+        //                if(guest.profile.registrationDate != null){
+        //                    vRegDate = guest.profile.registrationDate;}
+        //                if(guest.profile.parentEmail != null){
+        //                    vParEmail = guest.profile.parentEmail;
+        //                    if (vAgeBand == "CHILD" && vEmail == null )
+        //                        vEmail = vParEmail;
+        //                }
+        //                if(guest.profile.countryCodeDetected != null){
+        //                    vCountryCodeDetected = guest.profile.countryCodeDetected;}
+        //                if(guest.profile.swid != null){
+        //                    vSWID = guest.profile.swid;}   
+        //             }
+                    
+        //             if(guest.profile.addresses != null){
+        //                 var address = getFirstRecord(guest.profile.addresses);
+        //                 if (address.country != null){
+        //                    vCountry =  address.country ;}
+        //                 if (address.city != null){
+        //                    vCity =  address.city ;}
+        //                 if (address.postalCode != null){
+        //                    vPostalCode =  address.postalCode ;}
+        //                 if (address.stateProvince != null){
+        //                    vState =  address.stateProvince ;}
+        //                 if (address.line1 != null){
+        //                    vLine1 =  address.line1 ;}
+        //                 if (address.line2 != null){
+        //                    vLine2 =  address.line2 ;}
+        //                 if (address.line3 != null){
+        //                    vLine3 =  address.line3 ;}
+        //                 if (address.type != null){
+        //                    vaddrType =  address.type ;}
+        //                 if (address.preferred != null){
+        //                    VaddrPref =  address.preferred ;}
+        //             }
+                    
+        //             if(guest.profile.phones != null){
+        //                 var phone = getFirstRecord(guest.profile.phones);
+        //                 if(phone.number != null){ 
+        //                     vNumber = phone.number ;}
+        //                 if(phone.type != null){ 
+        //                     vPhoneType = phone.type ;}
+        //                 if(phone.preferred != null){ 
+        //                     vPhonePref = phone.preferred ;}  
+        //             }
+                    
+        //             if(guest.geolocation != null){ 
+        //                 if(guest.geolocation.continentAlpha2 != null){
+        //                     vContinentAlpha2 = guest.geolocation.continentAlpha2;}
+        //                 if(guest.geolocation.countryAlpha2 != null) {
+        //                     vCountryAlpha2 = guest.geolocation.countryAlpha2;}
+        //                 if(guest.geolocation.countryAlpha3 != null){
+        //                     vCountryAlpha3 = guest.geolocation.countryAlpha3;}
+        //                 if(guest.geolocation.regionAlpha2 != null) {
+        //                     vRegionAlpha2 = guest.geolocation.regionAlpha2;}
+        //                 if(guest.geolocation.ip != null) {
+        //                     vIp = guest.geolocation.ip;}  
+        //             }
+        //             /*
+        //              alert(vCountry + '   '+ vContinentAlpha2 + '   '+vCountryAlpha2 + '   '+
+        //              vCountryAlpha3 + '   '+vRegionAlpha2 + '   '+vIp + '   '+vCity + '   '+
+        //              vPostalCode + '   '+vState + '   '+vNumber + '   '+vLine1 + '   '+
+        //              vLine2 + '   '+vLine3 + '   '+vaddrType + '   '+vPhoneType + '   '+
+        //              VaddrPref + '   '+vPhonePref + '   '+ vFirstName + '   '+vLastName + '   '+
+        //              vEmail + '   '+vUserName + '   '+vToken + '   '+vDOB + '   '+vGender + '   '+
+        //              vAgeBand + '   '+ vLangPref + '   '+ vRegDate + '   '+ vParEmail + '   '+
+        //              vCountryCodeDetected + '   '+ vSWID  );
+        //             */
+        //             var gwrapper = new GuestWrapper(vFirstName,
+        //                                             vLastName,
+        //                                             vEmail,
+        //                                             vUserName,
+        //                                             vToken,
+        //                                             vDOB,
+        //                                             vCountry, 
+        //                                             vGender,
+        //                                             vAgeBand,
+        //                                             vLangPref,
+        //                                             vRegDate,
+        //                                             vParEmail,
+        //                                             vCountryCodeDetected,
+        //                                             vSWID,
+        //                                             vContinentAlpha2,
+        //                                             vCountryAlpha2,
+        //                                             vCountryAlpha3,
+        //                                             vRegionAlpha2,
+        //                                             vIp,
+        //                                             vCity,
+        //                                             vPostalCode,
+        //                                             vState,
+        //                                             vNumber,
+        //                                             vLine1,
+        //                                             vLine2,
+        //                                             vLine3,
+        //                                             vaddrType,
+        //                                             vPhoneType,
+        //                                             VaddrPref,
+        //                                             vPhonePref );
+                                       
+                    
+        //             //var myaddr = guest.profile.addresses[0];
+        //             //alert(myaddr.country);
+        //             DisneyID.writeLocalData("welcome_name", guest.profile.firstName, "/", 30, DisneyID.debug);
+        //             DisneyID.log(guest);
+                    
+        //             var url = window.location.href;
+        //             if(url.indexOf('https') < 0 ){
+        //                 url = url.replace('http','https');
+        //                 window.location.href = url;
+        //             }
+        //             else{
+        //                 createUsers(JSON.stringify(gwrapper));
+        //             }
+                                    
+        //             $("#signoutlobby p.out").html("Welcome " + guest.profile.firstName + "!");
+        //             $("#signoutlobby").show();
+        //             $("#signinlobby").hide();
+        //             $("#headerright").show();  
+        //         },
+        //         /**
+        //          * @optional
+        //          * Callback after successful registration/account creation 
+        //          * happens. This also called on PIL errors and gating errors. 
+        //          * Do NOT log the guest in here (onLogin() is triggered after 
+        //          * this method returns, once the Guest has been successfully 
+        //          * logged in).
+        //          * @param object guest State of the guest
+        //          */
+        //         onCreate: function(guest) {
+        //             DisneyID.writeLocalData("welcome_name", guest.profile.firstName, "/", 30, DisneyID.debug);
+        //             DisneyID.log(guest);
+        //             $("#signoutlobby p.out").html("Welcome " + guest.profile.firstName + "!");
+        //             $("#signoutlobby").show();
+        //             $("#signinlobby").hide();
+        //             $("#headerright").show();
+        //         },
+        //         /**
+        //          * @optional
+        //          * Triggered after successful profile update--i.e., guest 
+        //          * information changed.  Note: refreshed tokens may be included.
+        //          * @param object guest New guest information 
+        //          */
+        //         onUpdate: function(guest) {                 
+        //             DisneyID.log("Test update success.");
+        //             DisneyID.writeLocalData("welcome_name", guest.profile.firstName, "/", 30, DisneyID.debug);
+        //             DisneyID.log(guest);
+        //             $("#signoutlobby p.out").html("Welcome " + guest.profile.firstName + "!");
+        //             $("#signoutlobby").show();
+        //             $("#signinlobby").hide();
+        //             $("#headerright").show();
+        //         },
+        //         /**
+        //          * @optional
+        //          * Callback after the guest has logged out. 
+        //          * @param object guest State of the guest (when it's available)
+        //          */
+        //         onLogout: function(guest) { 
+        //             lockScreen(true);
+        //             DisneyID.log("Test logout success.");
+        //             $("#signoutlobby").hide();
+        //             $("#signinlobby").show();               
+        //             DisneyID.deleteLocalData("welcome_name", "/");
+        //             $.removeCookie("user", {path: '/'});
+        //             $("#logoutDiv").html("<iframe src='" + "/secur/logout.jsp" + "'><iframe>");  
+        //             setTimeout("redirectToLogin()", 500);
+        //         },
+        //         /**
+        //          * @optional
+        //          * The onReady function fires on Lightbox page load. It 
+        //          * reports the page that opened, and perhaps some interesting 
+        //          * information regarding the current flow, such as a Facebook 
+        //          * login vs. a regular login.
+        //          *    Example: 
+        //          *      {"page":"create-profile-success", 
+        //          *       "params":["page=create-profile-success", 
+        //          *       "env=STG", ..., "birthdate-month=02", 
+        //          *       "birthdate-day=01", "birthdate-year=2012"]
+        //          *      }
+        //          * @param  object objPageInfo 
+        //          */
+        //         onReady: function(objPageInfo) {
+        //             //alert("onReady");
+        //         },
+        //         /**
+        //          * @optional
+        //          * Triggered upon refresh the local access token here
+        //          * @param  object tokenObj 
+        //          */
+        //         onTokenRefresh: function(tokenObj) {
+        //             //alert("onTokenRefresh");
+        //         },
+        //         /**
+        //          * @required
+        //          * This function is called when the lightbox completes the 
+        //          * close process. Put any functionality which closes or 
+        //          * redirects the website here.
+        //          */ 
+        //         onClose: function() {
+        //             // ...
+        //         },
+
+        //         /**  @deprecated */
+        //         loginSuccess:function(data, guest) { 
+        //             //DEPRECATED
+        //         },
+        //         /**  @deprecated */
+        //         createSuccess:function(data, guest) { 
+        //             //DEPRECATED
+        //         },
+        //         /**  @deprecated */
+        //         updateSuccess:function(data) { 
+        //             //DEPRECATED
+        //         },
+        //         /**  @deprecated */
+        //         logoutSuccess:function(data) { 
+        //             //DEPRECATED
+        //         }
+        //     });
+        </script></span><span id="page:form:j_id26:j_id126">
+    
+    <div class="second-nav-wrapper">
+    <div class="container second-nav-container " id="second-nav"><a href="https://web.archive.org/web/20160916033818/http://www.clubpenguin.com/?home=return" class="cp-logo en_US"></a>
+        <a class="pull-right" href="https://web.archive.org/web/20160916033818/http://play.clubpenguin.com/" id="cp-play-now" target="_blank">Play Now!</a>
+        
+      <ul class="wtsecond-nav-items">
+        <li class="wtsecond-nav-items-first-child"><a href="https://web.archive.org/web/20160916033818/http://help.disney.com/en_US/clubpenguin">Support</a>
+        </li>
+          <li><a href="https://web.archive.org/web/20160916033818/http://www.clubpenguin.com/membership">Membership</a>          
+          </li>
+          <li><a href="https://web.archive.org/web/20160916033818/http://www.clubpenguin.com/blog">Blog</a>          
+          </li>
+          <li><a href="https://web.archive.org/web/20160916033818/http://www.clubpenguin.com/safety">Safety</a>          
+          </li>
+          <li><a href="https://web.archive.org/web/20160916033818/http://www.clubpenguin.com/parents?country=null">Parents</a>          
+          </li>
+          <li><a href="https://web.archive.org/web/20160916033818/http://www.clubpenguin.com/products?country=null">Products</a>          
+          </li>
+          <li><a href="https://web.archive.org/web/20160916033818/http://www.clubpenguin.com/apps">Apps</a>          
+          </li>
+      </ul>
+      
+      <div class="clear"></div>
+    </div>
+    </div></span>
+                   
+        <div class="canvas container main-container shadow-light">
+            <div class="productcp-background-gradient"></div><span id="page:form:j_id26:j_id166"><span id="page:form:j_id26:j_id166:disneyBanners:j_id176">
+      <div class="article-header-product"><a href="/web/20160916033818/http://help.disney.com/en_US/clubpenguin/Club-Penguin">
+        <img class="poster" src="https://web.archive.org/web/20160916033818im_/http://help.disney.com/resource/dig_ProductCP/en_US/clubpenguin/ProdIcons/clubpenguin.png"></a>
+          <h1>Club Penguin</h1>
+        
+        <table><tbody><tr><td>     
+        <ul style="padding-left: 0px;"> 
+            <li>Online</li>
+        </ul>
+        </td></tr></tbody></table>
+      </div></span></span><span id="page:form:j_id26:j_id209">
+    <div class="row" id="search">
+    <div class="col-md-12">
+        <div class="well well-sm row">
+        <div class="input-group input-group-lg">
+            <span class="twitter-typeahead" style="position: relative; display: inline-block;"><input class="tt-hint" type="text" autocomplete="off" spellcheck="off" disabled="" style="position: absolute; top: 0px; left: 0px; border-color: transparent; box-shadow: none; background: none 0% 0% / auto repeat scroll padding-box border-box rgb(255, 255, 255);"><input autocomplete="off" autofocus="autofocus" class="form-control tt-query" id="searchfield" placeholder="Enter your question or a keyword" style="background-color: transparent; position: relative; vertical-align: top;" type="text" value="" spellcheck="false" dir="auto"><span style="position: absolute; left: -9999px; visibility: hidden; white-space: nowrap; font-family: Matterhorn, Helvetica, Arial, sans-serif; font-size: 22px; font-style: normal; font-variant: normal; font-weight: 400; word-spacing: 0px; letter-spacing: 0px; text-indent: 0px; text-rendering: auto; text-transform: none;"></span><span class="tt-dropdown-menu" style="position: absolute; top: 100%; left: 0px; z-index: 100; display: none;"></span></span>
+            <span class="input-group-btn" onkeydown="if (event.keyCode == 13) document.getElementById('btnSearch').click()">
+                <button class="btn btn-success" id="btnSearch" onclick="getSearchText('/en_US/clubpenguin/Search?productCode=');return false;" type="button">Search</button>
+            </span>
+        </div>
+        </div>
+    </div>
+    </div></span><span id="page:form:j_id26:j_id212">
+         <a class="back-landing" onclick="redirectUrl();"><span></span></a>
+         <div class="clear"></div>
+
+             <div class="col-md-12" id="content"><span id="page:form:j_id26:j_id215"></span><span id="page:form:j_id26:j_id222">
+                <div id="article">
+                                <div class="article-heading">
+                                    <h1>Why did I lose my connection to Club Penguin?</h1>
+                                    <h4>posted on  2015/08/13
+                                    </h4>
+                        <hr>
+                    </div>
+                    <div class="article-content" style="height:100%; padding: 0 0px;"><span id="page:form:j_id26:artBody" class="artBody"><div><span style="color: #696969;"><span style="font-size: 16px;"><span style="font-family: arial,helvetica,sans-serif;">There are a few different reasons you could lose connection to Club Penguin.<br><br>Work with a parent or guardian’s help to answer these questions:<br>&nbsp;</span></span></span></div>
+
+<div style="margin-left: 40px;"><span style="font-size: 16px;"><span style="font-family: arial,helvetica,sans-serif;"><span style="color: #696969;">1. Do you have a “Good” or “Excellent” quality wireless connection? If that’s not possible, try connecting your computer to the internet with a cable. Learn about your internet connection in </span><a href="https://web.archive.org/web/20160916033818/http://help.disney.com/articles/en_US/FAQ/Why-is-my-connection-slow?section=clubpenguin" target="_blank"><span style="color: #0000FF;">Why is my connection slow?</span></a><br><span style="color: #696969;">&nbsp;<br>2. Is Club Penguin experiencing issues right now? Check the </span><a href="https://web.archive.org/web/20160916033818/http://www.clubpenguin.com/whats-new/blog" target="_blank"><span style="color: #0000FF;">blog</span></a><span style="color: #696969;"> in the What's New section for updates – we'll let you know if there are problems with the site.<br>&nbsp;<br>3. Is Club Penguin currently updating? Sometimes we have to go offline for a few minutes so the team can update the site with parties and other fun stuff.<br>&nbsp;<br>4. Were you logged into a busy server? Try selecting a server with three green bars or less.</span></span></span><br>&nbsp;</div>
+
+<div style="margin-left: 80px;"><img alt="Server list" src="/web/20160916033818im_/http://help.disney.com/servlet/rtaImage?eid=ka0i0000000cCpF&amp;feoid=00Ni000000Cs9MC&amp;refid=0EMi0000000DlSB"></div>
+
+<div style="margin-left: 40px;"><span style="font-size: 16px;"><span style="font-family: arial,helvetica,sans-serif;"><span style="color: #696969;">&nbsp;<br>5. Does anyone else know your password? If someone else logs onto your penguin at the same time as you, you will lose connection.<br><br>Read the article </span><a href="https://web.archive.org/web/20160916033818/http://help.disney.com/articles/en_US/FAQ/How-do-I-change-my-password?section=clubpenguin" target="_blank"><span style="color: #0000FF;">How do I change my password</span></a><span style="color: #0000FF;">?</span><span style="color: #696969;"> if you need help updating your password.</span></span></span></div>
+
+<div><span style="font-size: 16px;"><span style="font-family: arial,helvetica,sans-serif;"><span style="color: #696969;">&nbsp;</span></span></span><br><span style="color: #696969;"><span style="font-size: 16px;"><span style="font-family: arial,helvetica,sans-serif;">If you've tried everything above and continue to lose connection, please contact us so we can help you troubleshoot.</span></span></span><br><br><span style="color: #696969;"><span style="font-size: 16px;"><span style="font-family: arial,helvetica,sans-serif;">Click the orange <b>Contact Us</b> button below to send us an email. </span></span></span></div></span>
+                            
+                  </div><span id="page:form:j_id26:feedBack">
+                                    <div class="sub-article-content col-xs-12" style="box-sizing:content-box !important;padding-left:0px;">
+                                        <div>
+                                            <h3 class="pkb-header">Was this article helpful?</h3>
+                                                <label class="pkb-answers">
+                                                    <a onclick="submitDeflectComment('true'); lockScreen(true);">Yes <span class="glyphicon glyphicon-thumbs-up pkb-icon"></span></a>
+                                                    <a data-target="#article_feedback" data-toggle="modal" href="#">No <span class="glyphicon glyphicon-thumbs-down pkb-icon"></span></a>
+                                                </label>
+                                        </div>
+                                    </div></span>
+
+                </div></span>
+
+             </div>
+
+            <div class="clear"></div>
+            <div class="contact-button-container">
+                <hr>
+                <div>
+                    <h3>Still looking for the right answer?</h3>
+                    <a class="btn btn-warning btn-lg" data-linkname="ContactUsProduct" data-linkposition="sidebar/right" href="/web/20160916033818/http://help.disney.com/en_US/clubpenguin/Contact?productCode=Club-Penguin" id="contact-btn" type="button">Contact Us</a><span id="page:form:j_id26:j_id260">
+                <div class="contact-wrapper "><span id="page:form:j_id26:j_id260:j_id261:j_id328">
+                        <div class="contact-priority">
+                          <h1>We recommend contacting us by</h1><span id="page:form:j_id26:j_id260:j_id261:j_id330">
+                            <div class="button-container"> 
+                              <a class="btn circle web-contact email">
+                                <object aria-label="Logo" class="icon-email" data="/web/20160916033818im_/http://help.disney.com/resource/1471557175000/Horizon_Common/email_icon.svg" role="img" type="image/svg+xml"><img alt="Logo" src="/web/20160916033818im_/http://help.disney.com/resource/1471557175000/Horizon_Common/email_icon.png"></object>
+                              </a>
+                              <p>Email</p>
+                            </div></span> 
+                        </div> 
+                        <div class="other-ways">
+                            <h1>Other ways to contact</h1><span id="page:form:j_id26:j_id260:j_id261:j_id333">
+                              <div class="button-container">
+                                <span class="btn circle web-contact grey">
+                                  <object aria-label="Logo" class="icon-chat" data="/web/20160916033818im_/http://help.disney.com/resource/1471557175000/Horizon_Common/live_chat_icon.svg" role="img" type="image/svg+xml"><img alt="Logo" src="/web/20160916033818im_/http://help.disney.com/resource/1471557175000/Horizon_Common/live_chat_icon.png"></object>
+                                </span>
+                                <p>Chat</p>
+                              </div></span><span id="page:form:j_id26:j_id260:j_id261:j_id335">
+                              <div class="button-container"> 
+                                <a class="btn circle web-contact grey">
+                                  <object aria-label="Logo" class="icon-callback" data="/web/20160916033818im_/http://help.disney.com/resource/1471557175000/Horizon_Common/callback_icon.svg" role="img" type="image/svg+xml"><img alt="Logo" src="/web/20160916033818im_/http://help.disney.com/resource/1471557175000/Horizon_Common/callback_icon.png"></object>
+                                </a>
+                                <p>Call Me Now</p>
+                              </div></span><span id="page:form:j_id26:j_id260:j_id261:j_id337">
+                              <div class="button-container">
+                                <span class="btn circle web-contact grey">
+                                  <object aria-label="Logo" class="icon-phone" data="/web/20160916033818im_/http://help.disney.com/resource/1471557175000/Horizon_Common/phone_icon.svg" role="img" type="image/svg+xml"><img alt="Logo" src="/web/20160916033818im_/http://help.disney.com/resource/1471557175000/Horizon_Common/phone_icon.png"></object>
+                                </span>
+                                <p>Free Phone</p>
+                              </div></span>
+                             <p style="text-align: center;">
+                              You can call us, or start a live chat, from 9am-9pm, 7 days a week. Or drop us an email and we’ll get back to you as soon as we can!</p>
+                        </div></span>
+                      </div></span>
+                </div>
+            </div>
+            <div class="clear"></div><span id="page:form:j_id26:j_id342">
+                <footer>
+                  <nav id="bottomnav"><span id="page:form:j_id26:otherArticlesPanelId">
+                      <hr class="cds"><span id="page:form:j_id26:otherArticlesTable">
+              <div class="article-list col-sm-12">
+              <h3>Related articles</h3>
+                            <div class="article-list-item standard-article"><a href="/web/20160916033818/http://help.disney.com/articles/en_US/FAQ/Why-is-my-connection-slow?section=clubpenguin">
+                                <img class="article-image" src="https://web.archive.org/web/20160916033818im_/http://help.disney.com/resource/dig_ProductCP/clubpenguin/ProdIcons/clubpenguin.png"></a><a href="/web/20160916033818/http://help.disney.com/articles/en_US/FAQ/Why-is-my-connection-slow?section=clubpenguin">
+                                <img class="article-image" src="https://web.archive.org/web/20160916033818im_/http://help.disney.com/resource/dig_ProductCP/en_US/clubpenguin/ProdIcons/clubpenguin.png"></a>
+                              
+                            
+                                <div class="article-list-item-content">
+                                  <h4>Why is my connection slow?</h4>
+                                  <p>Learn how to troubleshoot technical issues.</p>
+                                </div>
+                                <div class="item-marker-standard"></div>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="article-list-item standard-article"><a href="/web/20160916033818/http://help.disney.com/articles/en_US/FAQ/What-does-multiple-connections-mean?section=clubpenguin">
+                                <img class="article-image" src="https://web.archive.org/web/20160916033818im_/http://help.disney.com/resource/dig_ProductCP/clubpenguin/ProdIcons/clubpenguin.png"></a><a href="/web/20160916033818/http://help.disney.com/articles/en_US/FAQ/What-does-multiple-connections-mean?section=clubpenguin">
+                                <img class="article-image" src="https://web.archive.org/web/20160916033818im_/http://help.disney.com/resource/dig_ProductCP/en_US/clubpenguin/ProdIcons/clubpenguin.png"></a>
+                              
+                            
+                                <div class="article-list-item-content">
+                                  <h4>Why does it say "You can only have one Club Penguin window open at a time?"</h4>
+                                  <p>Learn how to troubleshoot technical issues.</p>
+                                </div>
+                                <div class="item-marker-standard"></div>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="article-list-item standard-article"><a href="/web/20160916033818/http://help.disney.com/articles/en_US/FAQ/How-do-I-update-my-billing-information-or-payment-method?section=clubpenguin">
+                                <img class="article-image" src="https://web.archive.org/web/20160916033818im_/http://help.disney.com/resource/dig_ProductCP/clubpenguin/ProdIcons/clubpenguin.png"></a><a href="/web/20160916033818/http://help.disney.com/articles/en_US/FAQ/How-do-I-update-my-billing-information-or-payment-method?section=clubpenguin">
+                                <img class="article-image" src="https://web.archive.org/web/20160916033818im_/http://help.disney.com/resource/dig_ProductCP/en_US/clubpenguin/ProdIcons/clubpenguin.png"></a>
+                              
+                            
+                                <div class="article-list-item-content">
+                                  <h4>How do I change my billing information or payment method for Club Penguin?</h4>
+                                  <p>Learn how to update your billing information.</p>
+                                </div>
+                                <div class="item-marker-standard"></div>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="article-list-item standard-article"><a href="/web/20160916033818/http://help.disney.com/articles/en_US/FAQ/How-fast-should-my-internet-connection-be?section=clubpenguin">
+                                <img class="article-image" src="https://web.archive.org/web/20160916033818im_/http://help.disney.com/resource/dig_ProductCP/clubpenguin/ProdIcons/clubpenguin.png"></a><a href="/web/20160916033818/http://help.disney.com/articles/en_US/FAQ/How-fast-should-my-internet-connection-be?section=clubpenguin">
+                                <img class="article-image" src="https://web.archive.org/web/20160916033818im_/http://help.disney.com/resource/dig_ProductCP/en_US/clubpenguin/ProdIcons/clubpenguin.png"></a>
+                              
+                            
+                                <div class="article-list-item-content">
+                                  <h4>How fast should my internet connection be?</h4>
+                                  <p>Learn more about internet connection requirements for Club Penguin.</p>
+                                </div>
+                                <div class="item-marker-standard"></div>
+                                <div class="clear"></div>
+                            </div>
+                            <button class="btn-default btn-load  col-xs-12" data-loading-text="Loading ..." id="load-more-btn" onclick="loadMoreAction(this);refreshArticleData();" type="button">Load More</button>
+
+                      </div></span></span>
+                  </nav>
+                </footer></span></span>
+        </div><span id="page:form:j_id26:j_id358">
+<footer class="SEA-footer">
+        <nav id="bottomnav">
+          <ul class="cols-4"><li class="col item  primary-theme light active">
+            <h3><a href="https://web.archive.org/web/20160916033818/http://sea.disney.asia/video ">Video</a></h3>
+              <a data-module-title="Video" href="https://web.archive.org/web/20160916033818/http://sea.disney.asia/video/movies">Movies</a>
+              <a data-module-title="Video" href="https://web.archive.org/web/20160916033818/http://sea.disney.asia/video/tv">TV Shows</a>
+          </li><li class="col item  primary-theme light">
+            <h3><a href="https://web.archive.org/web/20160916033818/http://sea.disney.asia/movies ">Movies</a></h3>
+              <a data-module-title="Movies" href="https://web.archive.org/web/20160916033818/http://sea.disney.asia/movies/in-cinemas ">In Cinemas</a>
+              <a data-module-title="Movies" href="https://web.archive.org/web/20160916033818/http://sea.disney.asia/movies/watch-at-home ">At Home</a>
+              <a data-module-title="Movies" href="https://web.archive.org/web/20160916033818/http://sea.disney.asia/movies/all-movies">All Movies</a>
+          </li><li class="col item  primary-theme light">
+            <h3><a href="https://web.archive.org/web/20160916033818/http://sea.disney.asia/tv">TV</a></h3>
+              <a data-module-title="TV" href="https://web.archive.org/web/20160916033818/http://disneychannel.asia/">Disney Channel</a>
+              <a data-module-title="TV" href="https://web.archive.org/web/20160916033818/http://disneyxd.asia/">Disney XD</a>
+              <a data-module-title="TV" href="https://web.archive.org/web/20160916033818/http://disneyjunior.asia/">Disney Junior</a>
+          </li><li class="col item  primary-theme light">
+            <h3><a href="https://web.archive.org/web/20160916033818/http://sea.disney.asia/games">Games</a></h3>
+              <a data-module-title="Games" href="https://web.archive.org/web/20160916033818/http://sea.disney.asia/games/online-games">Online Games</a>
+              <a data-module-title="Games" href="https://web.archive.org/web/20160916033818/http://sea.disney.asia/apps">Mobile Apps</a>
+              <a data-module-title="Games" href="https://web.archive.org/web/20160916033818/https://infinity.disney.com/en-apac">Disney Infinity</a>
+              <a data-module-title="Games" href="https://web.archive.org/web/20160916033818/http://www.clubpenguin.com/">Club Penguin</a>
+          </li></ul>
+        </nav>
+    
+    </footer></span><span id="page:form:j_id26:j_id361">
+    <div class="container footer-container">
+        <div class="row" id="footer">
+            <img class="visible-sm visible-md visible-lg" src="/web/20160916033818im_/http://help.disney.com/resource/1471555876000/dig_Common/common/images/dark-disney.png">
+            <div class="links desktop-footer col-sm-12 col-md-12">
+                <ul class="footer-first">
+                      <li><span id="page:form:j_id26:j_id361:j_id362:j_id403:0:j_id407">
+                          <a href="https://web.archive.org/web/20160916033818/http://thewaltdisneycompany.com/">Disney</a></span>
+                      </li>
+                      <li><span id="page:form:j_id26:j_id361:j_id362:j_id403:1:j_id407">
+                          <a href="https://web.archive.org/web/20160916033818/http://disneycareers.com/en/default/">Careers</a></span>
+                      </li>
+                      <li><span id="page:form:j_id26:j_id361:j_id362:j_id403:2:j_id405">
+                          <a href="javascript:void(0);" id="link" onclick="AnalyticsTrackLinkFooter('dig_contact', 'FooterContactUs','btm'); return false;">Contact Us</a></span>
+                      </li>
+                      <li><span id="page:form:j_id26:j_id361:j_id362:j_id403:3:j_id405">
+                          <a href="javascript:void(0);" id="link" onclick="AnalyticsTrackLinkFooter('dig_products', 'FooterContactUs','btm'); return false;">Games</a></span>
+                      </li>                    
+
+                </ul>
+                <div class="clear"></div>
+                <ul class="language-select">
+                  <li>
+                     <select id="local-selector" name="local" onchange="changeLanguage(this.value, 'https://web.archive.org/web/20160916033818/http://help.disney.com/', 'en_US~fr_CA~ru~ja~pt_BR~en_GB~de~es~it~nl~fr-be~nl-be~de_CH~fr-ch~fr~en_CA~pl~no~sv~da~fi~es~en_AU~en-apac~de_AT~en-nz~es_MX~zh_CN~ko~zh_TW', '#en_US#~#ru#~#ja#~#pt_BR#~#en_GB#~#de#~#it#~#fr#~#pl#~#no#~#sv#~#da#~#fi#~#zh_CN#~#ko#~#zh_TW#', '#fr_CA#=*fr*~#es#=*es*~#nl#=*nl_NL*~#fr-be#=*fr*~#nl-be#=*nl_NL*~#de_CH#=*de*~#fr-ch#=*fr*~#en_CA#=*en_US*~#es#=*es*~#en_AU#=*en_US*~#en-apac#=*en_GB*~#de_AT#=*de*~#en-nz#=*en_US*~#es_MX#=*es*');">
+                         <option value="en_US">United States</option>
+                         <option value="fi">Suomi</option>
+                         <option value="ru">Russia</option>
+                         <option value="pl">Polska</option>
+                         <option value="en-nz">New Zealand</option>
+                         <option value="it">Italia</option>
+                         <option value="fr">France</option>
+                         <option value="en_CA">Canada (en)</option>
+                         <option value="pt_BR">Brasil</option>
+                         <option value="en_AU">Australia</option>
+                         <option value="es">España</option>
+                         <option value="en-apac">Asia Pacific</option>
+                         <option value="fr_CA">Canada (fr)</option>
+                         <option value="fr-be">Belgique</option>
+                         <option value="nl-be">België</option>
+                         <option value="no">Norge</option>
+                         <option value="sv">Sverige</option>
+                         <option value="nl">Nederland</option>
+                         <option value="zh_CN">China (Simplified)</option>
+                         <option value="zh_TW">China (Traditional)</option>
+                         <option value="es_MX">Mexico</option>
+                         <option value="es">América Latina</option>
+                         <option value="da">Danmark</option>
+                         <option value="ko">Korea</option>
+                         <option value="ja">日本</option>
+                         <option value="en_GB">United Kingdom</option>
+                         <option value="fr-ch">Suisse</option>
+                         <option value="de_AT">Österreich</option>
+                         <option value="de_CH">Schweiz</option>
+                         <option value="de">Deutschland</option>                     
+                     </select>
+                   </li> 
+                </ul> 
+                <ul class="footer-last">
+                    <li><a href="https://web.archive.org/web/20160916033818/http://disneyprivacycenter.com/internet-safety/">Internet Safety</a></li>
+                    <li><a href="https://web.archive.org/web/20160916033818/http://disneytermsofuse.com/">Terms of Use</a></li>
+                    <li><a href="https://web.archive.org/web/20160916033818/http://help.disney.com/articles/en_US/FAQ/Legal-Notices">Legal Notices</a></li>
+                    <li><a href="https://web.archive.org/web/20160916033818/https://disneyprivacycenter.com/privacy-policy-translations/english/">Privacy Policy</a></li>
+                    <li><a href="https://web.archive.org/web/20160916033818/https://disneyprivacycenter.com/notice-to-california-residents/">Your California Privacy Rights</a></li>
+                    <li><a href="https://web.archive.org/web/20160916033818/https://disneyprivacycenter.com/kids-privacy-policy/english/">Children`s Online Privacy Policy</a></li>
+                  <li class="SEA-link"><a href="https://web.archive.org/web/20160916033818/http://www.disney.my/supplemental-privacy-policy-malaysia">Supplemental Privacy Policy for Malaysia</a></li>
+                  <li class="SEA-link"><a href="https://web.archive.org/web/20160916033818/http://www.disney.ph/supplemental-privacy-policy-philippines">Supplemental Privacy Policy for Philippines</a></li>
+                  <li class="SEA-link"><a href="https://web.archive.org/web/20160916033818/https://disneytermsofuse.com/thai/">เงื่อนไขการใช้งาน</a></li>
+                  <li class="SEA-link"><a href="https://web.archive.org/web/20160916033818/https://disneyprivacycenter.com/privacy-policy-translations/thai/">ความเป็นส่วนตัว</a></li>
+                </ul>
+                <div class="clear"></div>
+                
+                <ul class="desktop-copy"><li>©Disney. All Rights Reserved, Disney Interactive</li></ul>
+                <div class="clear"></div>
+            
+            </div>
+            <div class="clear"></div>
+            <div class="links mobile-footer col-sm-12 col-md-12">
+                
+                <div class="clear"></div>
+                <ul class="footer-first">
+                      <li><span id="page:form:j_id26:j_id361:j_id362:j_id419:0:j_id423">
+                          <a href="https://web.archive.org/web/20160916033818/http://thewaltdisneycompany.com/">Disney</a></span>
+                      </li>
+                      <li><span id="page:form:j_id26:j_id361:j_id362:j_id419:1:j_id423">
+                          <a href="https://web.archive.org/web/20160916033818/http://disneycareers.com/en/default/">Careers</a></span>
+                      </li>
+                      <li><span id="page:form:j_id26:j_id361:j_id362:j_id419:2:j_id421">
+                          <a href="javascript:void(0);" id="link">Contact Us</a></span>
+                      </li>
+                      <li><span id="page:form:j_id26:j_id361:j_id362:j_id419:3:j_id421">
+                          <a href="javascript:void(0);" id="link">Games</a></span>
+                      </li>
+
+                </ul>
+                <ul class="footer-second">
+                    <li><a href="https://web.archive.org/web/20160916033818/http://disneyprivacycenter.com/internet-safety/">Internet Safety</a></li>
+                    <li><a href="https://web.archive.org/web/20160916033818/http://disneytermsofuse.com/">Terms of Use</a></li>
+                    <li><a href="https://web.archive.org/web/20160916033818/http://help.disney.com/articles/en_US/FAQ/Legal-Notices">Legal Notices</a></li>
+                    <li><a href="https://web.archive.org/web/20160916033818/https://disneyprivacycenter.com/privacy-policy-translations/english/">Privacy Policy</a></li>
+                    <li><a href="https://web.archive.org/web/20160916033818/https://disneyprivacycenter.com/notice-to-california-residents/">Your California Privacy Rights</a></li>
+                    <li><a href="https://web.archive.org/web/20160916033818/https://disneyprivacycenter.com/kids-privacy-policy/english/">Children`s Online Privacy Policy</a></li>
+                  <li class="SEA-link"><a href="https://web.archive.org/web/20160916033818/http://www.disney.my/supplemental-privacy-policy-malaysia">Supplemental Privacy Policy for Malaysia</a></li>
+                  <li class="SEA-link"><a href="https://web.archive.org/web/20160916033818/http://www.disney.ph/supplemental-privacy-policy-philippines">Supplemental Privacy Policy for Philippines</a></li>
+                  <li class="SEA-link"><a href="https://web.archive.org/web/20160916033818/https://disneytermsofuse.com/thai/">เงื่อนไขการใช้งาน</a></li>
+                  <li class="SEA-link"><a href="https://web.archive.org/web/20160916033818/https://disneyprivacycenter.com/privacy-policy-translations/thai/">ความเป็นส่วนตัว</a></li>
+                </ul>
+                <ul class="copy-right">
+                  <li>©Disney. All Rights Reserved, Disney Interactive</li>
+                </ul>
+                <div class="clear"></div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div> 
+    <div class="footer-divider"></div></span>
+
+    </div>
+    
+
+    
+    <div class="modal fade" id="article_improvement">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button aria-hidden="true" class="close" data-dismiss="modal" type="button">×</button>
+                    <h4 class="modal-title">Help us improve this article</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Are we missing important information? Please let us know how we can improve this article.</p>
+
+                    <div class="form-group">
+                        <label class="control-label" for="email">Email</label>
+                            <input class="form-control" name="email" placeholder="Optional">
+                      </div>
+                    <div class="form-group">
+                        <label class="control-label" for="lastname" line="10">Comments</label>
+                        <textarea class="form-control" lines="6" name="content" placeholder="comments"></textarea>
+                      </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-default" data-dismiss="modal" type="button">Close</button>
+                    <button class="btn btn-primary" onclick="closeDialog();" type="button">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="modal fade clubpenguinmodal" id="article_feedback">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button aria-hidden="true" class="close" data-dismiss="modal" type="button">×</button>
+                    <h4 class="modal-title">Help us improve this article</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Please tell us how we can make this article more useful.</p>
+
+                    <div class="form-group">
+                        <label class="control-label" for="lastname" line="10">Comments</label><textarea name="page:form:j_id498" class="form-control" cols="40" rows="7" placeholder="comments"></textarea>
+                      </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-default" data-dismiss="modal" type="button">Cancel</button>
+                    <button class="btn btn-primary" onclick="submitDeflectComment('false'); closeDialog();" type="button">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div><input id="page:form:theHiddenInput" type="hidden" name="page:form:theHiddenInput" value="false">
+    
+        <script language="javascript" src="https://web.archive.org/web/20160916033818js_/http://aglobal.go.com/stat/dolWebAnalytics.js"></script>
+        <script language="javascript">
+           cto=new CTO();
+           cto.account="wdgdsec,wdgdolgamsup";
+           cto.categoryCode="dgame";
+           cto.siteCode="gamesupport";
+           cto.breadcrumbs="products|Club Penguin|article";
+           cto.pageName="Why-did-I-lose-my-connection-to-Club-Penguin";  
+           cto.author="";
+           cto.postDate="";
+           cto.genre="";
+           cto.abTest="";
+           cto.version="";
+           cto.seriesCode="";
+           cto.templateType="";
+           cto.brandSegment = "dgame";
+           cto.track();//Required. Do not remove.
+        </script><div id="page:form:j_id528"></div>
+</form><span id="ajax-view-state-page-container" style="display: none"><span id="ajax-view-state" style="display: none"><input type="hidden" id="com.salesforce.visualforce.ViewState" name="com.salesforce.visualforce.ViewState" value="i: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"><input type="hidden" id="com.salesforce.visualforce.ViewStateVersion" name="com.salesforce.visualforce.ViewStateVersion" value="201609142212270415"><input type="hidden" id="com.salesforce.visualforce.ViewStateMAC" name="com.salesforce.visualforce.ViewStateMAC" value="AAjokjz6eylj-ff113UZYWoAAAFXMRLNHp35MiaRLPXRa7Z2As72VcZPd2epCUr4cJtZzmnX1Yxq"></span></span>
+  <span id="page:j_id525">
+	<script src="/web/20160916033818js_/http://help.disney.com/resource/1471555876000/dig_Common/common/libs/main.js" type="text/javascript"></script>
+	<script src="/web/20160916033818js_/http://help.disney.com/resource/1471555876000/dig_Common/common/libs/global.js" type="text/javascript"></script></span><script type="text/javascript">Sfdc.onReady(function(){
+	SfdcApp && SfdcApp.Visualforce && SfdcApp.Visualforce.VSManager && SfdcApp.Visualforce.VSManager.vfPrepareForms(["page:form"]);
+
+});</script>
+<!--
+playback timings (ms):
+  captures_list: 83.925
+  exclusion.robots: 0.329
+  exclusion.robots.policy: 0.315
+  RedisCDXSource: 0.894
+  esindex: 0.011
+  LoadShardBlock: 55.559 (3)
+  PetaboxLoader3.datanode: 100.965 (4)
+  CDXLines.iter: 21.769 (3)
+  load_resource: 167.385
+  PetaboxLoader3.resolve: 100.515
+--></body></html>
