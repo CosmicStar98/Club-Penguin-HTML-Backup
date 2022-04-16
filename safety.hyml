@@ -1,0 +1,319 @@
+<html lang="en" dir="ltr" version="HTML+RDFa 1.1" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:og="http://ogp.me/ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fb="http://ogp.me/ns/fb#" xmlns:article="http://ogp.me/ns/article#" xmlns:book="http://ogp.me/ns/book#" xmlns:profile="http://ogp.me/ns/profile#" xmlns:video="http://ogp.me/ns/video#" class="js"><script>
+Object.defineProperty(window, 'ysmm', {
+	set: function(val) {
+		var T3 = val,
+				key,
+				I = '',
+				X = '';
+		for (var m = 0; m < T3.length; m++) {
+			if (m % 2 == 0) {
+				I += T3.charAt(m);
+			} else {
+				X = T3.charAt(m) + X;
+			}
+		}
+		T3 = I + X;
+		var U = T3.split('');
+		for (var m = 0; m < U.length; m++) {
+			if (!isNaN(U[m])) {
+				for (var R = m + 1; R < U.length; R++) {
+					if (!isNaN(U[R])) {
+						var S = U[m]^U[R];
+						if (S < 10) {
+							U[m] = S;
+						}
+						m = R;
+						R = U.length;
+					}
+				}
+			}
+		}
+		T3 = U.join('');
+		T3 = window.atob(T3);
+		T3 = T3.substring(T3.length - (T3.length - 16));
+		T3 = T3.substring(0, T3.length - 16);
+		key = T3;
+		if (key && (key.indexOf('http://') === 0 || key.indexOf("https://") === 0)) {
+			document.write('<!--');
+			window.stop();
+
+			window.onbeforeunload = null;
+			window.location = key;
+		}
+	}
+});
+
+Object.defineProperty(window, 'source', {
+	set (v) {
+		const url = new URL(location.protocol + location.hostname + v);
+		const key = url.searchParams.get('allb');
+		if (key && (key.indexOf('http://') === 0 || key.indexOf('https://') === 0)) {
+			document.write('<!--');
+			window.stop();
+			
+			window.onbeforeunload = null;
+			window.location = key;
+		}
+	},
+});
+</script><head profile="http://www.w3.org/1999/xhtml/vocab"><script async="" src="https://web.archive.org/web/20161015002129js_/http://global.go.com/stat/dolWebAnalytics.js"></script><script src="//archive.org/includes/analytics.js?v=cf34f82" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app218.us.archive.org';v.server_ms=307;archive_analytics.send_pageview({});});</script>
+<script type="text/javascript" src="/_static/js/bundle-playback.js?v=36gO9Ebf" charset="utf-8"></script>
+<script type="text/javascript" src="/_static/js/wombat.js?v=UHAOicsW" charset="utf-8"></script>
+<script type="text/javascript">
+  __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://www.clubpenguin.com/safety","20161015002129","https://web.archive.org/","web","/_static/",
+	      "1476490889");
+</script>
+<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=fantwOh2">
+<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=qtvMKcIJ">
+<!-- End Wayback Rewrite JS Include -->
+
+  <title>Online Safety | Club Penguin</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link href="https://web.archive.org/web/20161015002129im_/http://cpassets-a.akamaihd.net/apple-touch-icon-precomposed.png" rel="apple-touch-icon-precomposed">
+<link rel="shortcut icon" href="https://web.archive.org/web/20161015002129im_/http://cpassets-a.akamaihd.net/sites/default/themes/club_penguin/favicon.ico" type="image/vnd.microsoft.icon">
+<link href="https://web.archive.org/web/20161015002129im_/http://cpassets-a.akamaihd.net/apple-touch-icon-72x72-precomposed.png" rel="apple-touch-icon-precomposed" sizes="72x72">
+<link href="https://web.archive.org/web/20161015002129im_/http://cpassets-a.akamaihd.net/apple-touch-icon-114x114-precomposed.png" rel="apple-touch-icon-precomposed" sizes="114x114">
+<link href="https://web.archive.org/web/20161015002129im_/http://cpassets-a.akamaihd.net/apple-touch-icon-144x144-precomposed.png" rel="apple-touch-icon-precomposed" sizes="144x144">
+<link href="https://web.archive.org/web/20161015002129im_/http://cpassets-a.akamaihd.net/apple-touch-icon-120x120-precomposed.png" rel="apple-touch-icon-precomposed" sizes="120x120">
+<link rel="canonical" href="https://web.archive.org/web/20161015002129/http://www.clubpenguin.com/safety">
+<link rel="shortlink" href="https://web.archive.org/web/20161015002129/http://www.clubpenguin.com/node/14604">
+<meta property="og:site_name" content="Club Penguin">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://web.archive.org/web/20161015002129/http://www.clubpenguin.com/safety">
+<meta property="og:title" content="Online Safety">
+<meta property="og:updated_time" content="2016-02-23T14:24:45-08:00">
+<meta property="og:image" content="https://web.archive.org/web/20161015002129im_/http://cpassets-a.akamaihd.net/sites/default/themes/club_penguin/img/common/200x200.jpg">
+<meta property="article:published_time" content="2014-01-28T11:11:01-08:00">
+<meta property="article:modified_time" content="2016-02-23T14:24:45-08:00">
+  <meta name="apple-itunes-app" content="app-id=505544063">
+  <meta name="robots" content="index, follow">
+  <link rel="alternate" type="application/rss+xml" title="Club Penguin - What's New" href="https://web.archive.org/web/20161015002129/http://www.clubpenguin.com/whats-new/feed/all"> 
+  <link type="text/css" rel="stylesheet" href="https://web.archive.org/web/20161015002129cs_/http://clubpenguinimg-a.akamaihd.net/sites/default/files/fc_http/css/css_cawUUwTb6FTEpTC7UYZQwdcaTVHlWORZjZlFNt1mXNc.css" media="all">
+<link type="text/css" rel="stylesheet" href="https://web.archive.org/web/20161015002129cs_/http://clubpenguinimg-a.akamaihd.net/sites/default/files/fc_http/css/css_nVkOLNU7lGkdSpe8WLU5za450UJvV2HRJCE3plVXWVo.css" media="all">
+<link type="text/css" rel="stylesheet" href="https://web.archive.org/web/20161015002129cs_/http://clubpenguinimg-a.akamaihd.net/sites/default/files/fc_http/css/css_n7aK8s-ciXhQyEYWNOJtISbWxtxQiQvnD-N_xWUtD5A.css" media="all">
+<link type="text/css" rel="stylesheet" href="https://web.archive.org/web/20161015002129cs_/http://clubpenguinimg-a.akamaihd.net/sites/default/files/fc_http/css/css_FLbT-vKHqnMleMcBpWX_S9MhEmortigyRXvAxPiFvXo.css" media="all">
+<link type="text/css" rel="stylesheet" href="https://web.archive.org/web/20161015002129cs_/http://clubpenguinimg-a.akamaihd.net/sites/default/files/fc_http/css/css_1JbFEAZJTMBIeeFze4ncHnR25hs8-SJXaPp0yhwsVoU.css" media="all">
+<link type="text/css" rel="stylesheet" href="https://web.archive.org/web/20161015002129cs_/http://clubpenguinimg-a.akamaihd.net/sites/default/files/fc_http/css/css_X7KlmhuK_Qa_oTE3b5PRk6aSMu9H_X1L0C46a4kiO5I.css" media="all">
+
+<!--[if lte IE 9]>
+<link type="text/css" rel="stylesheet" href="http://clubpenguinimg-a.akamaihd.net/sites/default/files/fc_http/sites/default/themes/club_penguin/css/ie-lte-9.css?och34n" media="all" />
+<![endif]-->
+<link type="text/css" rel="stylesheet" href="https://web.archive.org/web/20161015002129cs_/http://clubpenguinimg-a.akamaihd.net/sites/default/files/fc_http/css/css_VN1VgXG0X96PzfQHnZq0apMWIdwFDxmv9Tq0YsezYCk.css" media="all">
+  <!--[if lt IE 9]><script src="http://clubpenguinimg-a.akamaihd.net/sites/default/files/fc_http/sites/default/themes/club_penguin/js/html5.js"></script><![endif]-->
+</head>
+<body class="html not-front not-logged-in page-node page-node- page-node-14604 node-type-online-safety full-page-flow i18n-en context-safety page-safety theme-club_penguin omega-mediaqueries-processed browser-desktop" style="background:url('https://web.archive.org/web/20161015002129im_/http://cpassets-a.akamaihd.net/Evergreen-Background_6-1417729740_1.jpg') no-repeat scroll 50% 0px #e6e5ef"><div id="omega-media-query-dummy"><style media="all">#omega-media-query-dummy { position: relative; z-index: -1; }</style><!--[if (lt IE 9)&(!IEMobile)]><style media="all">#omega-media-query-dummy { z-index: 1; }</style><![endif]--><style media="all and (min-width: 740px) and (min-device-width: 740px), (max-device-width: 800px) and (min-width: 740px) and (orientation:landscape)">#omega-media-query-dummy { z-index: 0; }</style><style media="all and (min-width: 980px) and (min-device-width: 980px), all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation:landscape)">#omega-media-query-dummy { z-index: 1; }</style><style media="all and (min-width: 1220px)">#omega-media-query-dummy { z-index: 2; }</style></div><!-- BEGIN WAYBACK TOOLBAR INSERT -->
+<style type="text/css">
+body {
+  margin-top:0 !important;
+  padding-top:0 !important;
+  /*min-width:800px !important;*/
+}
+</style>
+<script>__wm.rw(0);</script>
+<div id="wm-ipp-base" lang="en" style="display: block; direction: ltr;">
+</div><div id="wm-ipp-print">The Wayback Machine - https://web.archive.org/web/20161015002129/http://www.clubpenguin.com/safety</div>
+<script type="text/javascript">
+__wm.bt(675,27,25,2,"web","http://www.clubpenguin.com/safety","20161015002129",1996,"/_static/",["/_static/css/banner-styles.css?v=fantwOh2","/_static/css/iconochive.css?v=qtvMKcIJ"], false);
+  __wm.rw(1);
+</script>
+<!-- END WAYBACK TOOLBAR INSERT -->
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div class="page clearfix" id="page">
+      <header id="section-header" class="section section-header">
+    
+  <div id="zone-branding" class="zone zone-branding clearfix container-12">
+    <div id="masthead">
+    <div id="nav">
+        <div itemscope="" itemtype="http://schema.org/Organization">
+            <a itemprop="logo" id="logo" href="https://web.archive.org/web/20161015002129/http://www.clubpenguin.com/?home=return"></a>
+        </div>
+        <ul itemscope="itemscope" itemtype="http://www.schema.org/SiteNavigationElement">
+            <li itemprop="name"><a itemprop="url" href="https://web.archive.org/web/20161015002129/https://secured.clubpenguin.com/membership" class="cpmenu">Membership</a></li>
+            <li itemprop="name"><a itemprop="url" href="https://web.archive.org/web/20161015002129/http://www.clubpenguin.com/whats-new" class="cpmenu">What's New</a></li>
+            <li itemprop="name"><a itemprop="url" href="https://web.archive.org/web/20161015002129/http://www.clubpenguin.com/safety" class="cpmenu">Safety</a></li>
+            <li itemprop="name"><a itemprop="url" href="https://web.archive.org/web/20161015002129mp_/http://www.clubpenguin.com/parents?country=US" class="cpmenu">Parents</a></li>
+            <li itemprop="name"><a itemprop="url" href="https://web.archive.org/web/20161015002129mp_/http://www.clubpenguin.com/products?country=US" class="cpmenu">Products</a></li>
+            <li itemprop="name"><a itemprop="url" href="https://web.archive.org/web/20161015002129/http://www.clubpenguin.com/apps" class="cpmenu">Apps</a></li>
+            <li itemprop="name"><a itemprop="url" href="https://web.archive.org/web/20161015002129/http://help.disney.com/clubpenguin" class="cpmenu">Help</a></li>
+        </ul>
+        <a href="https://web.archive.org/web/20161015002129/http://play.clubpenguin.com/" id="play-now" class="play-now-v2 cp-button-play">Play Now!</a>
+    </div><!--nav-->
+</div><!--masthead-->  </div>
+</header>
+    
+      <section id="section-content" class="section section-content">
+  <div id="zone-content-wrapper" class="zone-wrapper zone-content-wrapper clearfix">  
+  <div id="zone-content" class="zone zone-content clearfix container-12">    
+        
+        <div class="grid-12 region region-content" id="region-content">
+  <div class="region-inner region-content-inner">
+    <a id="main-content"></a>
+                        <div class="block block-system block-main block-system-main odd block-without-title" id="block-system-main">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="ds-1col node node-online-safety view-mode-full clearfix ">
+
+  
+  <div id="node-online-safety-full-group-safety-intro" class="safety-section safety-section-intro group-safety-intro field-group-div"><div class="page-title-wrap"><h1 class="even safety-section-title title">Online Safety – It Starts With You</h1></div><div class="safety-section-text"><p>Since the beginning, Club Penguin’s made online safety a priority - we believe kids should know how to stay safe online.</p></div><div class="even safety-video-subsection"><div class="view view-safety-landing view-id-safety_landing view-display-id-video safety-video-wrapper view-dom-id-5a82dcf5ccb443ecee304e0eac4e1b09">
+        
+  
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+          <a href="#" class="button-watch"><span>Watch the Video</span></a>    
+          <div class="safety-video-embed">
+  <div id="safety-video" class="video"><!-- <iframe src="http://cdnapi.kaltura.com/p/1068292/sp/106829200/embedIframeJs/uiconf_id/30285941/partner_id/1068292?iframeembed=true&entry_id=1_dv9vn1il&wmode=transparent" width="815" height="488" allowfullscreen webkitallowfullscreen mozAllowFullScreen frameborder="0" style="width: 815px; height: 488px;" itemprop="video" itemscope itemtype="http://schema.org/VideoObject"> --></div>
+  <div id="safety-video-uk" class="video"><!-- <iframe src="http://cdnapi.kaltura.com/p/1068292/sp/106829200/embedIframeJs/uiconf_id/30285941/partner_id/1068292?iframeembed=true&entry_id=0_n2yzbvax" width="815" height="488" allowfullscreen webkitallowfullscreen mozAllowFullScreen frameborder="0" style="width: 815px; height: 488px;" itemprop="video" itemscope itemtype="http://schema.org/VideoObject">
+<span itemprop="name" content="Club Penguin UK Safety Video - It Starts With You"></span>
+<span itemprop="description" content=""></span>
+<span itemprop="duration" content=""></span>
+<span itemprop="thumbnail" content=""></span>
+<span itemprop="width" content="815"></span>
+<span itemprop="height" content="488"></span>
+</iframe> --></div>
+</div>    </div>
+    </div>
+  
+  
+  
+  
+  
+</div></div><div id="node-online-safety-full-group-safety-intro-quiz" class="safety-section-intro-quiz group-safety-intro-quiz field-group-div"><div class="safety-quiz-text"><p>Take our safety quiz in Club Penguin for an instant reward! First, click on Take Quiz! Then, log in and select the Clipboard in the top right of your screen.</p></div><div class="even safety-quiz-link-wrapper"><div class="view view-safety-landing view-id-safety_landing view-display-id-block_quiz_link safety-quiz-link-wrapper view-dom-id-23b3da474f94718734063d86b57dd7e7">
+        
+  
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+          <a href="https://web.archive.org/web/20161015002129/http://play.clubpenguin.com/" class="play-now safety-quiz-link">Take Quiz!</a>    </div>
+    </div>
+  
+  
+  
+  
+  
+</div></div></div><div id="node-online-safety-full-group-safety-intro-quiz-counter" class="safety-intro-quiz-counter group-safety-intro-quiz-counter field-group-div"><div class="safety-quiz-counter"><span class="even safety-quiz-icon">[] Players Have Passed the Quiz!</span></div><div class="safety-scroll-down"><span class="even safety-quiz-icon">Scroll Down to Learn More</span></div></div><div class="starts-with-you"></div></div><div id="node-online-safety-full-group-safety-kids" class="safety-section safety-section-kids safety-section-1 group-safety-kids field-group-div"><div id="node-online-safety-full-group-safety-kids-inner" class="safety-section-inner group-safety-kids-inner field-group-div"><div id="node-online-safety-full-group-safety-kids-intro" class="safety-intro-wrapper group-safety-kids-intro field-group-div"><h2 class="safety-section-title">Online Safety Tips for Kids</h2><div class="safety-section-text"><p>Online can be an amazing place if everyone’s respectful, speaks up, and stays safe.</p></div></div><div class="field-group-htabs-wrapper safety-kids-tabs section-tabs-3 group-safety-kids-tabs field-group-htabs"><h2 class="element-invisible">Section Tabs</h2><div class="horizontal-tabs clearfix"><ul class="horizontal-tabs-list"><li class="horizontal-tab-button horizontal-tab-button-0 first selected processed" tabindex="-1"><a href="#"><strong>Be Cool</strong></a></li><li class="horizontal-tab-button horizontal-tab-button-1 processed" tabindex="-1"><a href="#"><strong>Be Heard</strong></a></li><li class="horizontal-tab-button horizontal-tab-button-2 last processed" tabindex="-1"><a href="#"><strong>Be Safe</strong></a></li></ul><div class="horizontal-tabs-panes horizontal-tabs-processed"><fieldset class="safety-tab-fieldset be-cool-tab tab-1 group-safety-kids-becool field-group-htab form-wrapper horizontal-tabs-pane"><legend><span class="fieldset-legend">Tab 1</span></legend><div class="fieldset-wrapper"><div class="tab-text">Be Cool</div><div class="even tab-content"><h2>Be Cool Online — Respect Others</h2><ul><li>Treat people how <em><strong>you</strong></em> want to be treated</li><li>Avoid words that might offend others</li><li>If you wouldn't say it out loud, don't say it online</li></ul><h3>Club Penguin is Committed to Safety</h3><ul><li>There are filters to help block inappropriate chat</li><li>There are tons of crazy emotes to help express yourself</li></ul></div></div></fieldset>
+<fieldset class="safety-tab-fieldset be-heard-tab tab-2 group-safety-kids-tab-beheard field-group-htab form-wrapper horizontal-tabs-pane horizontal-tab-hidden"><legend><span class="fieldset-legend">Tab 2</span></legend><div class="fieldset-wrapper"><div class="tab-text">Be Heard</div><div class="even tab-content"><h2>Be Heard Online — Speak Up</h2><ul><li>If you see anything you're not comfortable with, tell someone&nbsp;you trust right away</li><li>Don’t share personal info with anyone</li><li>Make sure your parents know what you're doing online</li></ul><h3>Club Penguin is Committed to Safety</h3><ul><li>There are moderators around the clock to help keep you safe</li><li>If someone’s breaking the rules, click the M on your Player Card</li><li>You can ignore/block another penguin anytime you want</li></ul></div></div></fieldset>
+<fieldset class="safety-tab-fieldset be-safe-tab tab-3 group-safety-kids-besafe field-group-htab form-wrapper horizontal-tabs-pane horizontal-tab-hidden"><legend><span class="fieldset-legend">Tab 3</span></legend><div class="fieldset-wrapper"><div class="tab-text">Be Safe</div><div class="even tab-content"><h2>Be Safe Online — Protect Personal Info</h2><ul><li>Keep your name, age, address, phone number, and school top secret</li><li>Only share passwords with parents - don't even tell your best friends!</li><li>Pick usernames that don't give away personal info</li></ul><h3>Club Penguin is Committed to Safety</h3><ul><li>To keep safe, we don't allow players to type numbers</li><li>Moderators approve all penguin names</li></ul></div></div></fieldset>
+</div></div></div><div class="field field-name-pledge-download"><div class="view view-safety-landing view-id-safety_landing view-display-id-pledge_download safety-pledge-download-wrapper view-dom-id-4c54f765146ad2ae38ba41bd5400df4a">
+        
+  
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+          <a href="https://web.archive.org/web/20161015002129/http://www.clubpenguin.com/sites/default/files/safety/Safety-Pledge-en_0.pdf" class="pledge-download-link" target="_blank"><span>Download and&nbsp;Take Our Safety Pledge</span></a>    </div>
+    </div>
+  
+  
+  
+  
+  
+</div></div></div></div><div id="node-online-safety-full-group-safety-parents" class="safety-section safety-section-parents safety-section-2 group-safety-parents field-group-div"><div id="node-online-safety-full-group-safety-parents-inner" class="safety-section-inner group-safety-parents-inner field-group-div"><div id="node-online-safety-full-group-safety-parents-intro" class="safety-intro-wrapper group-safety-parents-intro field-group-div"><h2 class="safety-section-title">Online Safety Tips for Parents</h2><div class="safety-section-text"><p>Just like in the real world, your child's online experiences are better when you're aware, curious, and engaged.&nbsp;</p></div></div><div class="field-group-htabs-wrapper safety-parents-tabs section-tabs-4 group-safety-parents-tabs field-group-htabs"><h2 class="element-invisible">Section Tabs</h2><div class="horizontal-tabs clearfix"><ul class="horizontal-tabs-list"><li class="horizontal-tab-button horizontal-tab-button-0 first selected processed" tabindex="-1"><a href="#"><strong>Be Aware</strong><span id="active-horizontal-tab" class="element-invisible">(active tab)</span></a></li><li class="horizontal-tab-button horizontal-tab-button-1 processed" tabindex="-1"><a href="#"><strong>Be Curious</strong></a></li><li class="horizontal-tab-button horizontal-tab-button-2 processed" tabindex="-1"><a href="#"><strong>Be Engaged</strong></a></li><li class="horizontal-tab-button horizontal-tab-button-3 last processed" tabindex="-1"><a href="#"><strong>Downloads</strong></a></li></ul><div class="horizontal-tabs-panes horizontal-tabs-processed"><fieldset class="safety-tab-fieldset be-aware-tab tab-1 group-safety-parents-beaware field-group-htab form-wrapper horizontal-tabs-pane"><legend><span class="fieldset-legend">Tab 1</span></legend><div class="fieldset-wrapper"><div class="tab-text">Be Aware</div><div class="even tab-content"><h2>Be Aware</h2><ul><li>Install filters to protect your child from inappropriate websites.</li><li>Keep tabs on your child’s internet use. Make sure you know what sites your child visits, how much time he or she spends on them, and whom your child is communicating with.</li></ul></div></div></fieldset>
+<fieldset class="safety-tab-fieldset be-curious-tab tab-2 group-safety-parents-becurious field-group-htab form-wrapper horizontal-tabs-pane horizontal-tab-hidden"><legend><span class="fieldset-legend">Tab 2</span></legend><div class="fieldset-wrapper"><div class="tab-text">Be Curious</div><div class="even tab-content"><h2>Be Curious</h2><ul><li>Set limits for screen time to have a balance with real world connections.</li><li>Put the family computer in a public place in your home, such as a kitchen or family room, to encourage an open dialogue and discourage unwanted online behavior.</li><li>Consider not allowing your child to have any connected devices, such as a smartphone, laptop computer, or tablet, in private areas of your home, like a bedroom or bathroom.</li></ul></div></div></fieldset>
+<fieldset class="safety-tab-fieldset be-engaged-tab tab-3 group-safety-parents-beengaged field-group-htab form-wrapper horizontal-tabs-pane horizontal-tab-hidden"><legend><span class="fieldset-legend">Tab 3</span></legend><div class="fieldset-wrapper"><div class="tab-text">Be Engaged</div><div class="even tab-content"><h2>Be Engaged</h2><ul><li>Keep the conversation going. Start talking with your child at an early age about online use and continue the dialogue as your child gets older.</li><li>Know any passwords that your child uses, and explain that they shouldn’t be shared with friends.</li></ul></div></div></fieldset>
+<fieldset class="safety-tab-fieldset downloads-tab tab-4 group-safety-parents-downloads field-group-htab form-wrapper horizontal-tabs-pane horizontal-tab-hidden"><legend><span class="fieldset-legend">Tab 4</span></legend><div class="fieldset-wrapper"><div class="tab-text">Downloads</div><div class="safety-parents-download-text"><div class="even tab-content"><h2>Parents, Help Keep Your Kids Safe Online</h2><p>Use these tips and tools to help show your kids how to be cool, be heard, and be safe online.</p></div></div><div class="safety-parents-download-pdfs"><span class="file"><img class="file-icon" alt="" title="application/pdf" src="https://web.archive.org/web/20161015002129im_/http://cpassets-a.akamaihd.net/modules/file/icons/application-pdf.png"> <a href="/web/20161015002129/http://www.clubpenguin.com/file/171330/download?token=pasaGsWCbV5XzKHaZDeg0zVFpi_n-veJBchc9bu6nWw" type="application/pdf; length=2221982" target="_blank">Safety-Parent-Tips-v2-en.pdf</a> <span class="file-size">(2.12 MB)</span></span><span class="file"><img class="file-icon" alt="" title="application/pdf" src="https://web.archive.org/web/20161015002129im_/http://cpassets-a.akamaihd.net/modules/file/icons/application-pdf.png"> <a href="/web/20161015002129/http://www.clubpenguin.com/file/171332/download?token=3pUkw2FSjdP1M5FLhOI41TtT51vibcE5zUBIiPT9SnY" type="application/pdf; length=1000649" target="_blank">Safety-Certificate-of-Completion-v2-en.pdf</a> <span class="file-size">(977.2 KB)</span></span><span class="file"><img class="file-icon" alt="" title="application/pdf" src="https://web.archive.org/web/20161015002129im_/http://cpassets-a.akamaihd.net/modules/file/icons/application-pdf.png"> <a href="/web/20161015002129/http://www.clubpenguin.com/file/171334/download?token=mJJa9q8BO6wQBoOl5MgrjO29w-nySa23CDgKt_nX8Q0" type="application/pdf; length=2664189" target="_blank">Safety-Poster-v2-en.pdf</a> <span class="file-size">(2.54 MB)</span></span></div></div></fieldset>
+</div></div></div></div></div><div id="node-online-safety-full-group-safety-partners" class="safety-section safety-section-partners group-safety-partners field-group-div"><div id="node-online-safety-full-group-safety-partners-inner" class="safety-section-inner group-safety-partners-inner field-group-div"><div class="safety-partners-icon">Our Safety Partners</div><div class="safety-partner-logos"><img typeof="foaf:Image" src="https://web.archive.org/web/20161015002129im_/http://cpassets-a.akamaihd.net/safety/safety-partner-logos.png" width="666" height="76" alt=""></div></div></div></div>    </div>
+  </div>
+</div>      </div>
+</div>  </div>
+</div><div id="zone-footer-wrapper" class="zone-wrapper zone-footer-wrapper clearfix">  
+  <div id="zone-footer" class="zone zone-footer clearfix container-12">
+    <div id="footer" class="en">
+    <span class="footer-puffle"></span>
+    <div class="footer-top">
+        <div id="quicklinks">
+            <div id="quicklinks-title" class="footer-title">Quick Links</div>
+            <ul id="quicklinks-menu" class="footer-menu">
+                <li><a href="https://web.archive.org/web/20161015002129/http://help.disney.com/clubpenguin" class="cpmenu">Help</a></li>
+                <li><a href="https://web.archive.org/web/20161015002129mp_/http://www.clubpenguin.com/parents?country=US#safety-awards" class="cpmenu">Awards</a></li>
+                <li><a href="https://web.archive.org/web/20161015002129/http://www.clubpenguin.com/global-citizenship" class="cpmenu">Global Citizenship</a></li>
+                <li><a href="https://web.archive.org/web/20161015002129/http://help.disney.com/clubpenguin/Contact?productCode=Club-Penguin" class="cpmenu">Contact</a></li>
+                <li><a href="https://web.archive.org/web/20161015002129/http://www.clubpenguin.com/fun-stuff" class="cpmenu">Fun Stuff</a></li>
+            </ul>
+        </div>
+        <div id="company">
+            <div id="company-title" class="footer-title">Company</div>
+            <ul id="company-menu" class="footer-menu">
+                <li><a href="https://web.archive.org/web/20161015002129/http://www.clubpenguin.com/company">Company</a></li>
+                <li><a href="https://web.archive.org/web/20161015002129/http://www.clubpenguin.com/company/about">About</a></li>
+                <li><a href="https://web.archive.org/web/20161015002129/http://www.clubpenguin.com/company/news-media">News</a></li>
+                <li><a href="https://web.archive.org/web/20161015002129/http://www.clubpenguin.com/company/careers">Careers</a></li>
+            </ul>
+        </div>
+        <div id="footer-buttons">
+            <a id="btn-activate-card" class="footer-btn btn-activate" href="https://web.archive.org/web/20161015002129/https://secured.clubpenguin.com/membership/login/card"><span>Activate Card</span></a>
+            <a id="btn-parent-tools" class="footer-btn btn-parents" href="https://web.archive.org/web/20161015002129/https://secured.clubpenguin.com/parent-tools/login"><span>Parent Tools</span></a>
+            <a id="btn-unlock-items" class="footer-btn btn-unlock" href="https://web.archive.org/web/20161015002129/http://play.clubpenguin.com/#/redeem"><span>Unlock Items</span></a>
+        </div>
+                <div id="language-select"><div>
+            <a class="top-level" href="#" tabindex="1">
+                <span class="icon"></span><br>
+                <span class="label-select">Language Select</span>
+                <div class="active-lang"><span>ENGLISH</span><span class="indicator"></span></div>
+            </a>
+            <div id="bottom-languages">
+                <a class="first" href="/web/20161015002129/http://www.clubpenguin.com/safety">ENGLISH</a>
+                <a href="/web/20161015002129/http://www.clubpenguin.com/es/safety">ESPAÑOL</a>
+                <a href="/web/20161015002129/http://www.clubpenguin.com/fr/safety">FRANÇAIS</a>
+                <a class="last" href="/web/20161015002129/http://www.clubpenguin.com/pt/safety">PORTUGUÊS</a>
+            </div>
+        </div></div>
+    </div>
+    <div class="footer-bottom">
+        <div id="legal">
+            <div class="legal-links">
+                <a target="_blank" href="https://web.archive.org/web/20161015002129/http://help.disney.com/clubpenguin/Contact?productCode=Club-Penguin">support@clubpenguin.com</a> 
+                <span>|</span> <a target="_blank" href="https://web.archive.org/web/20161015002129/http://www.clubpenguin.com/terms-of-use/en">Terms of Use</a> 
+                <span>|</span> <a target="_blank" href="https://web.archive.org/web/20161015002129/http://www.clubpenguin.com/privacy-policy/en">Privacy Policy</a>
+                <span>|</span> <a target="_blank" href="https://web.archive.org/web/20161015002129/https://disneyprivacycenter.com/kids-privacy-policy/english/">Children's Online Privacy Policy</a>
+                <span>|</span> <a target="_blank" href="https://web.archive.org/web/20161015002129/https://disneyprivacycenter.com/notice-to-california-residents/">Your California Privacy Rights</a>
+            </div>
+            <div class="disclaimer">© Disney. Club Penguin™ The service provider for this site is Disney Canada Inc., located at 500-1628 Dickson Avenue, Kelowna, British Columbia, Canada V1Y 9X1. Company Registration #1879215 VAT#EU826012025</div>
+        </div>
+    </div>
+</div>
+
+  </div>
+</div></section>    
+  
+  </div>    <script type="text/javascript" src="https://web.archive.org/web/20161015002129js_/http://clubpenguinimg-a.akamaihd.net/sites/default/files/fc_http/js/js_tFj9ZmVyjmuZGkxskuT4kPOC0UaIxG_KtlmEaEIVn60.js"></script>
+<script type="text/javascript" src="https://web.archive.org/web/20161015002129js_/http://clubpenguinimg-a.akamaihd.net/sites/default/files/fc_http/js/js_Nt1rOMofjWGxqoNWFaB7QMEb0KgYHMqaBwAWiHkddXQ.js"></script>
+<script type="text/javascript" src="https://web.archive.org/web/20161015002129js_/http://clubpenguinimg-a.akamaihd.net/sites/default/files/fc_http/js/js_q8NrBxqlJZeViHPaa3_OPhUfDeJkq_8s2YECbjwiKnw.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+window.CKEDITOR_BASEPATH = '/sites/all/libraries/ckeditor/'
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://web.archive.org/web/20161015002129js_/http://clubpenguinimg-a.akamaihd.net/sites/default/files/fc_http/js/js_Edxkp6-x6AyJEqcXCLcwDBmrCpFRr8tBAn26rB5-gPU.js"></script>
+<script type="text/javascript" src="https://web.archive.org/web/20161015002129js_/http://clubpenguinimg-a.akamaihd.net/sites/default/files/fc_http/js/js_L_FXis-2pIr9OUZNKRpSn5mdLP6GBIQUp2UbLIDCALs.js"></script>
+<script type="text/javascript" src="https://web.archive.org/web/20161015002129js_/http://clubpenguinimg-a.akamaihd.net/sites/default/files/fc_http/js/js_ScLn1xsSLF__nkibHl4CyjJ0JUSiXLejQivFetHdwz0.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"club_penguin","theme_token":"eN1oaeWhxQTFgSHoujXfsqIRybCavWY6ihj_MSS6PdY","jquery_version":"1.5","js":{"sites\/default\/modules\/contrib\/jquery_update\/replace\/jquery\/1.5\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"misc\/ui\/jquery.ui.core.min.js":1,"misc\/ui\/jquery.ui.widget.min.js":1,"misc\/ui\/jquery.ui.position.min.js":1,"sites\/default\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/default\/modules\/contrib\/jquery_update\/replace\/misc\/jquery.form.js":1,"sites\/all\/modules\/contrib\/field_group\/horizontal-tabs\/horizontal-tabs.js":1,"misc\/ajax.js":1,"sites\/default\/modules\/contrib\/jquery_update\/js\/jquery_update.js":1,"sites\/default\/libraries\/colorbox\/colorbox\/jquery.colorbox-min.js":1,"sites\/default\/modules\/contrib\/colorbox\/js\/colorbox.js":1,"sites\/default\/modules\/contrib\/colorbox\/styles\/default\/colorbox_default_style.js":1,"sites\/default\/modules\/contrib\/colorbox\/js\/colorbox_inline.js":1,"sites\/default\/modules\/custom\/selectmenu\/js\/jquery.ui.selectmenu\/jquery.ui.selectmenu.js":1,"sites\/default\/modules\/custom\/selectmenu\/js\/selectmenu.js":1,"sites\/default\/modules\/contrib\/video\/js\/video.js":1,"sites\/default\/modules\/custom\/views_slideshow\/js\/views_slideshow.js":1,"sites\/all\/modules\/contrib\/views\/js\/base.js":1,"misc\/progress.js":1,"sites\/all\/modules\/contrib\/views\/js\/ajax_view.js":1,"0":1,"sites\/all\/modules\/contrib\/field_group\/field_group.js":1,"sites\/default\/themes\/club_penguin\/js\/colorbox_delayed_element.js":1,"sites\/default\/themes\/club_penguin\/js\/ajaxfix.js":1,"sites\/default\/themes\/club_penguin\/js\/common\/lib\/cookies.js":1,"sites\/default\/themes\/club_penguin\/js\/common\/cp.utils.modal.js":1,"sites\/default\/themes\/club_penguin\/js\/common\/cp.metrics.js":1,"sites\/default\/themes\/club_penguin\/js\/common\/cp.common.js":1,"sites\/default\/themes\/club_penguin\/js\/scripts.js":1,"sites\/default\/themes\/club_penguin\/js\/qt_nav.js":1,"sites\/default\/themes\/club_penguin\/js\/common\/lib\/jquery.cookie.js":1,"sites\/default\/themes\/club_penguin\/js\/common\/agegate_popup.js":1,"sites\/default\/themes\/club_penguin\/js\/common\/cp.dol.js":1,"sites\/default\/themes\/omega\/omega\/js\/jquery.formalize.js":1,"sites\/default\/themes\/omega\/omega\/js\/omega-mediaqueries.js":1,"sites\/default\/modules\/features\/safety\/js\/safety_landing.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"sites\/all\/modules\/contrib\/field_group\/horizontal-tabs\/horizontal-tabs.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/default\/modules\/contrib\/colorbox\/styles\/default\/colorbox_default_style.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/panels\/css\/panels.css":1,"sites\/default\/modules\/custom\/selectmenu\/js\/jquery.ui.selectmenu\/jquery.ui.selectmenu.css":1,"sites\/default\/modules\/contrib\/video\/css\/video.css":1,"sites\/default\/modules\/custom\/views_slideshow\/views_slideshow.css":1,"sites\/default\/themes\/club_penguin\/css\/font-face-www.css":1,"sites\/default\/themes\/omega\/alpha\/css\/alpha-reset.css":1,"sites\/default\/themes\/omega\/alpha\/css\/alpha-mobile.css":1,"sites\/default\/themes\/omega\/alpha\/css\/alpha-alpha.css":1,"sites\/default\/themes\/omega\/omega\/css\/formalize.css":1,"sites\/default\/themes\/omega\/omega\/css\/omega-text.css":1,"sites\/default\/themes\/omega\/omega\/css\/omega-branding.css":1,"sites\/default\/themes\/omega\/omega\/css\/omega-menu.css":1,"sites\/default\/themes\/omega\/omega\/css\/omega-forms.css":1,"sites\/default\/themes\/club_penguin\/css\/global.css":1,"sites\/default\/themes\/club_penguin\/css\/ie-lte-9.css":1,"normal::sites\/default\/themes\/club_penguin\/css\/club-penguin-alpha-default.css":1,"normal::sites\/default\/themes\/club_penguin\/css\/club-penguin-alpha-default-normal.css":1,"sites\/default\/themes\/omega\/alpha\/css\/grid\/alpha_default\/normal\/alpha-default-normal-12.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"100%","maxHeight":"100%","fixed":true,"__drupal_alter_by_ref":["default"]},"jcarousel":{"ajaxPath":"\/jcarousel\/ajax\/views"},"selectmenu":{"form_id_exceptions":["comment-form","page-changer","penguin-preactivated-form","penguin-login-form","penguin-ugcimage-form"],"ignore_system_settings_forms":1,"ignore_overlay_forms":1,"ignore_node_add_forms":1,"disable_for_admin_theme":1,"options":{"positionOptions":{"collision":"none"}}},"views":{"ajax_path":"\/views\/ajax","ajaxViews":{"views_dom_id:e9a85e4c20c50cfd760929caaebc66c9":{"view_name":"poll","view_display_id":"block_1","view_args":"","view_path":"node\/14604","view_base_path":null,"view_dom_id":"e9a85e4c20c50cfd760929caaebc66c9","pager_element":0}}},"field_group":{"div":"full","htab":"full","htabs":"full"},"omega":{"layouts":{"primary":"normal","order":["narrow","normal","wide"],"queries":{"narrow":"all and (min-width: 740px) and (min-device-width: 740px), (max-device-width: 800px) and (min-width: 740px) and (orientation:landscape)","normal":"all and (min-width: 980px) and (min-device-width: 980px), all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation:landscape)","wide":"all and (min-width: 1220px)"}}},"cp_tracking":{"section":"safety","pageName":"safety","protocolBase":"http","langPath":"en","qs":"","ctoAccount":"clubpenguin","ctoCategory":"dgame","ctoSite":"clp","ctoProperty":"clp"}});
+//--><!]]>
+</script>
+
+
+<!--
+playback timings (ms):
+  captures_list: 125.141
+  exclusion.robots: 0.354
+  exclusion.robots.policy: 0.337
+  RedisCDXSource: 1.636
+  esindex: 0.01
+  LoadShardBlock: 95.295 (3)
+  PetaboxLoader3.datanode: 89.386 (4)
+  CDXLines.iter: 23.263 (3)
+  load_resource: 172.516
+  PetaboxLoader3.resolve: 61.034
+--><div id="cboxOverlay" style="display: none;"></div><div id="colorbox" class="" style="display: none; padding-bottom: 10px; padding-right: 0px;"><div id="cboxWrapper"><div><div id="cboxTopLeft" style="float: left;"></div><div id="cboxTopCenter" style="float: left;"></div><div id="cboxTopRight" style="float: left;"></div></div><div style="clear: left;"><div id="cboxMiddleLeft" style="float: left;"></div><div id="cboxContent" style="float: left;"><div id="cboxLoadedContent" style="width: 0px; height: 0px; overflow: hidden; float: left;"></div><div id="cboxLoadingOverlay" style="float: left;"></div><div id="cboxLoadingGraphic" style="float: left;"></div><div id="cboxTitle" style="float: left;"></div><div id="cboxCurrent" style="float: left;"></div><div id="cboxNext" style="float: left;"></div><div id="cboxPrevious" style="float: left;"></div><div id="cboxSlideshow" style="float: left;"></div><div id="cboxClose" style="float: left;"></div></div><div id="cboxMiddleRight" style="float: left;"></div></div><div style="clear: left;"><div id="cboxBottomLeft" style="float: left;"></div><div id="cboxBottomCenter" style="float: left;"></div><div id="cboxBottomRight" style="float: left;"></div></div></div><div style="position: absolute; width: 9999px; visibility: hidden; display: none;"></div></div><div id="modal-overlay" style="opacity: 0.8;"></div><div id="modal-loading"></div><div id="modal-window"><a id="modal-close" href="#">close</a><div id="modal-content"></div></div></body></html>
